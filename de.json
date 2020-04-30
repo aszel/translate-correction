@@ -1,0 +1,1855 @@
+{
+  "global": {
+    "product-name": "arvato-now",
+    "name": "Name",
+    "key": "Schlüsselbezeichnung",
+    "client":"Organisation",
+    "landing-page":"Startseite",
+    "business": "Business",
+    "businesses": "Businesses",
+    "service": "Service",
+    "services": "Services",
+    "process": "Prozess",
+    "processes": "Prozesse",
+    "select-processes": "Prozesse auswählen:",
+    "select-roles": "Rollen auswählen:",
+    "role": "Rolle",
+    "roles": "Rollen",
+    "active" : "Aktiv",
+    "case": "Vorgang",
+    "site": "Standort",
+    "sites": "Standorte",
+    "category": "Kategorie",
+    "category-id": "Kategorie ID",
+    "comment": "Kommentar",
+    "elements": "Einträge",
+    "resource": "Ressource",
+    "created-by": "Erstellt von",
+    "created": " Erstellt",
+    "modified": "Geändert",
+    "modified-by": "Geändert durch",
+    "last_modified": "Zuletzt geändert",
+    "timestamp": "Zeitpunkt",
+    "by": "Durch",
+    "status": "Status",
+    "outdated-value": "veralteter Wert",
+    "product": "Produkt",
+    "products": "Produkte",
+    "task": "Aufgabe",
+    "assignee": "Bearbeiter",
+    "resubmission": "Wiedervorlage",
+    "email": "E-Mail",
+    "mandatory-field": "Pflichtfeld",
+    "contact": "Kontakt",
+    "select-categories": "Ausgewählte Kategorien",
+    "basic-amount-categories": "Verfügbare Kategorien",
+    "multiple-save-progress": "Fortschritt der Mehrfachspeicherung",
+    "menu": {
+      "main": "Main",
+      "menu": "Menü",
+      "timetracking": "Timetracking",
+      "timetracking.add": "Timetracking",
+      "timetracking.edit": "Timetracking bearbeiten",
+      "timetracking.report.tt": "Report: meine Werte",
+      "timetracking.raw-data": "Timetracking rohdaten",
+      "productionplan": "Produktionsplan",
+      "productionplan.productionplan": "Produktionsplan",
+      "productionplan.edit-productionplan": "Produktionsplan bearbeiten",
+      "productionplan-manager": "Produktionsplan bearbeiten",
+      "base-data-administration": "Stammdaten",
+      "base-data-billing-information": "Abrechnungsdaten",
+      "add-base-data-billing-information-and-employment-level": "Abrechnungsdaten und Benutzerlevel hinzufügen",
+      "rbac-entity": "Rollen und Ressourcen verwalten",
+      "rbac-assign": "Rollen und Ressourcen zuweisen",
+      "assign-user-role": "Rollen und Benutzer zuweisen",
+      "user-manager": "Benutzer",
+      "compliance":"Compliance",
+      "news": {
+        "editor": "Newsmanager"
+      },
+      "checklist-manager": "Checklisten Manager",
+      "pinboard": "Pinnwand",
+      "processDocumentation": "Prozessdokumentation",
+      "documentation": "Prozessdokumentation",
+      "profile": "Profil",
+      "overall": {
+        "title": "Allgemein",
+        "cost-centre-external-work": "Kostenstellen Fremdarbeit",
+        "my-resources": "Meine Ressourcen",
+        "dataMaintenance": {
+          "title": "Datenpflege",
+          "baseData": {
+            "title": "Stammdaten",
+            "employee": "Benutzer",
+            "mandant": "Business"
+          }
+        },
+        "teams-supervisors": "Teams und Leitung",
+        "sample": {
+          "title": "Stichproben",
+          "processing": "Erfassung",
+          "error-frequency": "Fehlerhäufigkeit",
+          "status-evaluation": "Status und Auswertung",
+          "monthly-overview": "Monatsübersicht",
+          "dispute-management": "Klärfallbearbeitung"
+        },
+        "technical-environment": "Systemumgebung"
+      },
+      "administration": "Administration",
+      "filter-editor": "Filter",
+      "menu-editor": "Menü",
+      "dashboard-manager": "Dashboard",
+      "report-manager": "Query",
+      "kpi": {
+        "input": "KPI-Erfassung"
+      },
+      "file_upload": "Datei upload",
+      "dashboards": "Reporting",
+      "navigation-dashboard": "Dashboards",
+      "reporting": {
+        "tasks": "Aufgaben",
+        "samples-timeline": "Stichproben monatsübersicht",
+        "samples-error-frequency": "Stichproben fehlerhäufigkeit",
+        "samples-overview": "Stichprobenauswertung und status",
+        "quality-title": "Qualität",
+        "quality-team": "Qualität im Team",
+        "quality-maturity": "Reife der Qualitätssicherung",
+        "quality-own": "Meine Qualität",
+        "productivity-title": "Produktivität",
+        "productivity-distribution-team": "Verteilung unproduktiver Zeiten im Team",
+        "productivity-own": "Meine Produktivität",
+        "or-presence": "Anwesenheit",
+        "or-status-ics": "Status ics-kontrollen",
+        "productivity-team": "Produktivität im Team",
+        "performance-title": "Performance",
+        "performance-dashboard": "Prozess performance"
+      },
+      "logout": "Abmelden",
+      "favorites": {
+        "favorites": "Favoriten",
+        "add": "Zu Favoriten hinzufügen",
+        "remove": "Aus Favoriten entfernen"
+      }
+    },
+    "footer": {
+      "imprint": "Impressum",
+      "edit-imprint": "Impressum bearbeiten",
+      "report-issue" : "Feedback"
+    },
+    "trivial": {
+      "yes": "Ja",
+      "no": "Nein",
+      "all": "Alle",
+      "title": "Titel",
+      "color": "Farbe",
+      "take-color": "Farbe wählen",
+      "icon": "Symbol",
+      "select-icon": "Symbol wählen",
+      "print": "Drucken",
+      "download": "Datei herunterladen",
+      "general": "Allgemein",
+      "equal": "Gleich",
+      "contains": "Enthält",
+      "does-not-contain": "Enthält nicht",
+      "end-with": "Endet mit",
+      "starts-With": "Beginnt mit",
+      "to": "zu",
+      "select": "Ausgewählt",
+      "assign":"zuweisen",
+      "assign-of":"Zuweisen von:",
+      "detach":"auflösen",
+      "internal": "Intern",
+      "take-selection": "Auswahl übernehmen",
+      "current-selection": "Aktuelle Auswahl",
+      "selection": "Auswahl",
+      "settings-of": "Auswahl von",
+      "start-copy": "Kopieren",
+      "copy-values-to": "Auswahl anwenden an:",
+      "external": "Extern",
+      "search": "Durchsuchen",
+      "order-no": "Reihenfolge",
+      "add" : "{{placeholder}} hinzufügen",
+      "numbers" :{
+        "first": "Erster",
+        "second": "Zweiter"
+      }
+    },
+    "user": {
+      "user": "Benutzer",
+      "select-role-for-a-user-group": "Eine Rolle auswählen um die Benutzer, die diese Rolle besitzen, {{placeholder}} zu zuweisen:",
+      "assign-selected-role": "die ausgewählte Rolle",
+      "assign-selected-roles": "die ausgewählten Rollen",
+      "assign-selected-process": "den ausgewählten Prozess",
+      "assign-selected-processes": "die ausgewählten Prozesse",
+      "assign-to-selected-group": "Die ausgewählten Benutzer haben die gewünschten Einstellungen bereits zugewiesen bekommen.",
+      "select-ref-user" :  "Es ist kein Referenzbenutzer ausgewählt. Durch Rechtsklick kann ein Benutzer als Vorlage aus der Tabelle ausgewählt werden.",
+      "no-active-user-selected": "Keine Benutzer ausgewählt",
+      "is-select-ref-user" : "Referenzbenutzer ist ausgewählt: ",
+      "select-ref-role" :  "Es ist keine Referenzrolle ausgewählt. Durch Rechtsklick kann eine Rolle als Vorlage aus der Tabelle ausgewählt werden.",
+      "is-select-ref-role" : "Referenzrolle ist ausgewählt: ",
+      "ref-user-pre-text": "Die Einstellungen von",
+      "ref-user-post-text": "als Vorlage verwenden",
+      "edit-ref" : "Anpassen",
+      "ref-value" : "Referenzwerte",
+      "missing-values" : "Fehlende {{placeholder}} hinzufügen",
+      "identical-values": "Identische {{placeholder}} geben",
+      "template-to-copy": "Kopiervorlage",
+      "login": "RACF",
+      "roles": "Rollen",
+      "only-elements": "Nur zugewiesene {{placeholder}}",
+      "contract-details":"Vertragsdetails",
+      "base-data": "Stammdaten",
+      "base-data-edit": "Stammdaten verwalten",
+      "management": "Benutzerverwaltung",
+      "create-user": "Benutzer anlegen",
+      "first-name": "Vorname",
+      "last-name": "Nachname",
+      "personal-number": "Personalnummer",
+      "supervisor": "Vorgesetzter",
+      "employment-type": "Beschäftigungsverhältnis",
+      "assign-skills": "Zugewiesene Prozesse",
+      "assign-roles": "Zugewiesene Rollen",
+      "assign-user-role": "Benutzer und Rollen zuweisen",
+      "assign-role-resource": "Rollen und Ressourcen zuweisen",
+      "cost-centre": "Kostenstelle",
+      "take-current-cost-centre": "Aktuelle Kostenstelle des Referenzusers übernehmen",
+      "cost-centre-contract": "Kostenstelle / Vertragsdetails",
+      "business-supervisor": "Businessverantwortlich",
+      "business-supervisor-message": "Achtung, Benutzer ist Businessverantwortlich von:",
+      "service-supervisor":  "Serviceverantwortlich",
+      "service-supervisor-message": "Achtung, Benutzer ist Serviceverantwortlich von:",
+      "setting-supervisor": "Vorgesetzter",
+      "company-exit": "Austrittsdatum",
+      "company-entry": "Eintrittsdatum",
+      "leaver-category": "Beendigungskategorie",
+      "leaver-reason": "Beendigungsgrund",
+      "discharge": "Austritt",
+      "working-hours": "Arbeitsstunden pro Tag",
+      "leaver-reasons": {
+        "unknown": "Unbekannt",
+        "mutually-agreed": "Beidseitiges Einverständnis",
+        "not-specified": "Keine Spezifizierung",
+        "external": "Externer Benutzer"
+      },
+      "employment-types" : {
+        "temp-worker": "Zeitarbeiter",
+        "undated": "Unbefristet",
+        "temporary": "Befristet",
+        "other": "Sonstiges"
+      }
+    },
+    "date-time": {
+      "second": "Sekunde",
+      "minute": "Minute",
+      "hour": "Stunde",
+      "day": "Tag",
+      "week": "Woche",
+      "month": "Monat",
+      "year": "Jahr",
+      "to": "bis",
+      "from": "von",
+      "before": "vor",
+      "after": "nach",
+      "at": "am",
+      "last-changed": "Aktualisiert am",
+      "calendar": {
+        "week-days": {
+          "monday": "Mo",
+          "monday-long": "Montag",
+          "tuesday": "Di",
+          "tuesday-long": "Dienstag",
+          "wednesday": "Mi",
+          "wednesday-long": "Mittwoch",
+          "thursday": "Do",
+          "thursday-long": "Donnerstag",
+          "friday": "Fr",
+          "friday-long": "Freitag",
+          "saturday": "Sa",
+          "saturday-long": "Samstag",
+          "sunday": "So",
+          "sunday-long": "Sonntag",
+          "holiday": "Ft",
+          "holiday-long": "Feiertag"
+        },
+        "as-local-month": {
+          "jan": "Jan",
+          "jan-long": "Januar",
+          "feb": "Feb",
+          "feb-long": "Februar",
+          "mar": "Mär",
+          "mar-long": "März",
+          "apr": "Apr",
+          "apr-long": "April",
+          "may": "Mai",
+          "may-long": "Mai",
+          "jun": "Jun",
+          "jun-long": "Juni",
+          "jul": "Jul",
+          "jul-long": "Juli",
+          "aug": "Aug",
+          "aug-long": "August",
+          "sep": "Sep",
+          "sep-long": "September",
+          "oct": "Okt",
+          "oct-long": "Oktober",
+          "nov": "Nov",
+          "nov-long": "November",
+          "dec": "Dez",
+          "dec-long": "Dezember"
+        }
+      }
+    },
+    "date-picker-lable": {
+      "upSecondLabel": "Sekunden erhöhen",
+      "downSecondLabel": "Sekunden reduzieren",
+      "upMinuteLabel": "Minuten erhöhen",
+      "downMinuteLabel": "Minuten reduzieren",
+      "upHourLabel": "Stunden erhöhen",
+      "downHourLabel": "Stunden reduzieren",
+      "prevMonthLabel": "Vorheriger Monat",
+      "nextMonthLabel": "Nächster Monat",
+      "prevYearLabel": "Vorheriges Jahr",
+      "nextYearLabel": "Nächstes Jahr",
+      "prevMultiYearLabel": "Vorherige 21 Jahre",
+      "nextMultiYearLabel": "Nächste 21 Jahre",
+      "switchToMonthViewLabel": "Zu Monatsansicht wechseln",
+      "switchToMultiYearViewLabel": "Zu Jahresansicht wechseln",
+      "hour12AMLabel": "Vormittag",
+      "hour12PMLabel": "Nachmittag"
+    },
+    "date": {
+      "date": "Datum",
+      "to-date": "bis",
+      "from-date": "von",
+      "before-date": "vor",
+      "after-date": "nach",
+      "at": "Am",
+      "create-date": "Erstellungsdatum",
+      "termination-date": "Kündigungsdatum",
+      "commencement-date": "Vertragsbeginn",
+      "expiration-date": "Vertragsende"
+    },
+    "table": {
+      "no-data": "Keine Daten"
+    },
+    "area": {
+      "country": "Land",
+      "region": "Region",
+      "state": "Bundesland"
+    },
+    "messages": {
+      "duplicate-data": "Die Eingabe existiert bereits und muss deswegen geändert werden. Bitte geben Sie einen eindeutigen Bezeichner ein.",
+      "noDataAvailable": "keine Daten verfügbar",
+      "notCompleted": "Es fehlen noch Eingaben zum Speichern.",
+      "delete": "Daten werden unwiederbringlich gelöscht.",
+      "save": "Alle Änderungen speichern?",
+      "attention": "Hinweis",
+      "loading": "Daten werden geladen",
+      "cancel-changes-title": "Änderungen verwerfen",
+      "cancel-changes-message": "Wollen sie wirklich alle Änderungen verwerfen?",
+      "no-json": "Der eingegebene Text ist nicht nach dem JSON-Standard formatiert. Möchten Sie die Eingaben trotzdem übernehmen?",
+      "no-html": "Der eingegebene Text ist nicht nach dem HTML-Standard formatiert. Möchten Sie die Eingaben trotzdem übernehmen?",
+      "no-edit-permission": "Zum Editieren fehlen die entsprechenden Berechtigungen.",
+      "notifications": {
+      },
+      "toastr": {
+        "access-denied": "Zugriff verweigert",
+        "not-allowed-create-task": "Keine Berechtigung den Task zu bearbeiten",
+        "save-query-success": "Query ist gespeichert",
+        "generate-dates": "Termine werden generiert",
+        "generate-dates-error": "Fehler beim Generieren aufgetreten.",
+        "save-success": "Erfolgreich gespeichert.",
+        "save-success-turnus": "Turnus erfolgreich gespeichert.",
+        "save-success-tasktype": "Task erfolgreich gespeichert.",
+        "save-success-costcentre": "Kostenstelle erfolgreich gespeichert.",
+        "save-success-password": "Password erfolgreich gespeichert.",
+        "save-success-basedata": "Stammdaten erfolgreich gespeichert.",
+        "save-success-role": "Rollen erfolgreich zugeordnet.",
+        "save-success-process": "Prozesse erfolgreich zugeordnet.",
+        "loading-error": "Fehler beim Laden",
+        "save-error": "Fehler beim Speichern.",
+        "update-rejected": "Änderungen wurden aufgrund von Überschneidungen mit einer anderen Anlage nicht übernommen. Siehe dazu ID: ",
+        "save-denied": "Aufgrund einer bestehenden aktiven Anlage ist das Speichern nicht möglich. Siehe dazu ID: ",
+        "save-error-occurred": "Beim Speichern ist ein Fehler aufgetreten. Eventuell wurden nicht alle Daten gespeichert.",
+        "new-rejected": "Die Speicherung inaktiver Elemente wird nicht unterstützt.",
+        "not-allowed": "Es fehlt die Berechtigung, die Seite zu öffnen.",
+        "denied-confluence-page": "Die gewünschte Seite ist gesperrt.",
+        "download-confluence-page-attachments": "Die Datei kann unter dem Punkt -Dokumentenanhänge- heruntergeladen werden.",
+        "delete-success": "Daten erfolgreich gelöscht",
+        "delete-denied": "Es ist ein Fehler beim Löschen aufgetreten.",
+        "send-password-generation-email": "E-Mail zur Passworderstellung wird an {{email}} versand.",
+        "incorrect-email": "Nicht unterstützte E-Mail-Adresse",
+        "send-password-generation-email-error-occured": "E-Mail zum Passwort erstellen kann nicht versand werden.",
+        "create-checklist-success": "Checkliste erfolgreich erstellt",
+        "create-checklist-error": "Fehler beim Erstellen der Checkliste",
+        "mandatory-fields-required": "Bitte alle Pflichtfelder ausfüllen",
+        "missing-permission": "Fehlende Berechtigung: \"{{permissionName}}\".",
+        "search-available-process": "Es ist ein Fehler beim Suchen von Leistungsschein aufgetreten."
+      },
+      "REST": {
+        "success": "Call {{title}} succeeded",
+        "error": "Call {{title}} failed"
+      }
+    },
+    "search": {
+      "placeholder": "Suche...",
+      "min-chars": "min 3 Zeichen zum Suchen eingeben",
+      "not-found": "keine Ergebnisse"
+    },
+    "text": {
+      "headline": "Überschrift",
+      "address": "Anschrift"
+    },
+    "organization": {
+      "managing-directors" : "Geschäftsführer",
+      "data-protection-officer" : "Datenschutzbeauftragter",
+      "commercial-register" : "Handelsregister",
+      "disclaimer" : "Haftungsausschluss"
+    },
+    "keyboard": {
+      "caps-lock-is-on": "Feststelltaste ist aktiv."
+    },
+    "validation": {
+      "not-valid": "Eingabe wird nicht unterstützt.",
+      "not-valid-personal-number": "Personalnummer ist nicht valide. Bitte ändern.",
+      "not-valid-login": "RACF ist nicht valide. Bitte ändern."
+    }
+  },
+  "corporate-management": {
+    "employee-level": "Benutzerlevel",
+    "holiday-setting": "Feiertagseinstellung",
+    "imprint": "Impressum",
+    "product-properties": "Produktschlüssel",
+    "base-role-resource": "Basisdaten für Rollen und Ressourcen",
+    "role-level-key": "Rollenlevel Key",
+    "role-category-key": "Rollenkategorie Key",
+    "site-key": "Standort key",
+    "business-key": "Business key",
+    "site": "Standort",
+    "processtype":"Prozess-Kategorien",
+    "servicetype": "Service-Kategorie",
+    "role-type": "Kategorie",
+    "role-level": "Level",
+    "resource-type": "Kategorie",
+    "resource-subtype":"Subkategorie",
+    "roles":"Rollen",
+    "resources":"Ressourcen",
+    "assign_user_role": "Zuordnung von Benutzern und Rollen",
+    "selected-resource": "Ausgewählte Ressource: {{resourceName}}",
+    "multible_assign_user_role": "Mehrfachzuordnung von Benutzern und Rollen",
+    "edit_user": "Bearbeitung der zugewiesenen Rollen von Benutzer",
+    "edit_role_by_user": "Bearbeitung der zugewiesenen Benutzer einzelner Rollen",
+    "edit_role_by_resource": "Bearbeitung der zugewiesenen Ressourcen zu Rollen",
+    "edit_resource": "Bearbeitung der zugewiesenen Rollen zu Ressourcen",
+    "assign_role_resource":"Zuordnung von Rollen und Ressourcen",
+    "assign_role_user":"Zuordnung von Rollen und Benutzer",
+    "multible_role_resource": "Mehrfachzuordnung von Rollen und Ressourcen",
+    "job-title": "Jobtitel",
+    "contract-term":"Vertragslaufzeit",
+    "assign": "Änderungen übernehmen",
+    "remove-allocation": "Zuweisungen trennen",
+    "save-single-processing": "Einzelzuweisungen übernehmen",
+    "user-employment-type": "Vertragsart",
+    "user-employment-types": "Vertragsarten",
+    "confirm-to-save-changes": "Änderungen übernehmen:",
+    "roles-get-resources":"Rollen Resourcen zuweisen",
+    "roles-get-resources-message":"Möchtest du wirklich die folgenden Ressourcen zu den Rollen zuweisen?",
+    "resources-get-roles":"Ressourcen Rollen zuweisen",
+    "resources-get-roles-message":"Möchtest du wirklich die folgenden Rollen zu den Ressourcen zuweisen?",
+    "user-to-roles":"Benutzer Rollen zuweisen",
+    "user-to-roles-message":"Möchtest du wirklich den folgenden Rollen die Benutzer zuweisen?",
+    "user-get-roles":"Rollen Benutzer zuweisen",
+    "user-get-roles-message":"Möchtest du wirklich den folgenden Benutzern die aufgelisteten Rollen zuweisen?"
+  },
+  "table": {
+    "cell": {
+      "dashboard-type": {
+        "APPLICATION_MENU": "Anwendung",
+        "DASHBOARD": "Dashboard",
+        "NODE": "Menugruppe",
+        "CONFLUENCE": "Confluence",
+        "HREF": "Link",
+        "": ""
+      },
+      "task-admin": {
+        "old": "Altbestand",
+        "new": "Neuer Termin",
+        "O": "Offen",
+        "R": "Review",
+        "REVIEW": "Review",
+        "X": "Geschlossen",
+        "OPEN": "Offen",
+        "NONE": " ",
+        "REMOVE": "Löschen",
+        "both": "Termin im alten sowie neuem Turnus",
+        "": "",
+        "0": "Sonntag",
+        "1": "Montag",
+        "2": "Dienstag",
+        "3": "Mittwoch",
+        "4": "Donnerstag",
+        "5": "Freitag",
+        "6": "Samstag",
+        "7": "Sonntag",
+        "8": ""
+      }
+    },
+    "items-per-page": "Elemente pro Seite",
+    "disable-inline-edit-button": "Editieren momentan nicht möglich, da ein Eintrag bereits editiert wird."
+  },
+  "login": {
+    "user": "Mitarbeiter",
+    "login": "Anmelden",
+    "welcome": "Willkommen auf arvato-now",
+    "username": "Benutzername / RACF",
+    "password": "Passwort",
+    "password-confirmation": "Passwort bestätigen",
+    "cant-access": "Zugriff auf den Account nicht möglich.",
+    "password-forgotten": "Passwort vergessen?",
+    "login-error": "Zugangsdaten nicht korrekt.",
+    "locked": "Account gesperrt",
+    "account-locked": "Account gesperrt. Bitte klicken Sie auf \"Passwort vergessen?\" um ein neues Passwort festzulegen und den Account zu entsperren.",
+    "password-reset-error": "Der aufgerufene Link ist nicht mehr gültig. Bitte fordern Sie einen neuen Link zum Zurücksetzen des Passwortes an. Sie werden in Kürze umgeleitet.",
+    "password-guideline": "* Das Passwort muss mindestens einen Groß-/Kleinbuchstaben und eine Ziffer enthalten. Es darf nicht kürzer als 8 Zeichen sein",
+    "weak-password": "Das Passwort entspricht nicht der Unternehmensrichtlinie",
+    "account-expired": "Ihr Account ist abgelaufen. Bitte wenden Sie sich an ihren zuständigen Ansprechpartner.",
+    "validity-until": "Gültikeit des Accounts bis:"
+  },
+  "remind-password": {
+    "title": "Zugriff nicht möglich?",
+    "reset": "Passwort zurücksetzen",
+    "back": "Zurück zum Login",
+    "success-msg": "Wenn der Username existiert, erhalten Sie in Kürze eine Email mit der weiteren Vorgehensweise."
+  },
+  "reset-password": {
+    "generate": "Passwort generieren und senden",
+    "new-password": "Neues Passwort",
+    "new-password-repeat": "Passwort wiederholen",
+    "set-new": "Senden",
+    "back": "Zurück zum Login",
+    "success-msg": "Dein Passwort wurde geändert. Du kannst dich jetzt mit dem neuen Passwort anmelden"
+  },
+  "buttonlabel": {
+    "save": "Speichern",
+    "back-without-save": "Zurück ohne Speichern",
+    "resetAll": "Alles zurücksetzen",
+    "undoneLastStep": "Rückgängig",
+    "delete": "Löschen",
+    "invest": "Anlegen",
+    "confirm-deletion": "Löschen bestätigen",
+    "previous": "Rückgängig",
+    "add": "Hinzufügen",
+    "use": "Verwenden",
+    "ignore": "Verwerfen",
+    "next": "Weiter",
+    "close": "Schließen",
+    "back": "Zurück",
+    "load": "Laden",
+    "ok": "Ok",
+    "edit": "Bearbeiten",
+    "cancel": "Abbruch",
+    "export-csv": "Exportieren als *.csv",
+    "export-excel": "Exportieren als Excel-Datei",
+    "export-csv-file": "Exportieren als CSV-Datei",
+    "export-excel-file": "Exportieren als Excel-Datei",
+    "expand-all": "Alle Details anzeigen",
+    "collapse-all": "Details ausblenden",
+    "select-business": "Business bitte auswählen",
+    "mass-editor": "Mehrfachänderung",
+    "group-assignment": "Gruppenzuweisung",
+    "no-icon": "kein Symbol verwenden"
+  },
+  "dashboard": {
+    "process": "Vorgang",
+    "processes": "Vorgänge",
+    "main": {
+      "welcome": {
+        "hello": "Hallo",
+        "goodMorning": "Guten Morgen,",
+        "goodEvening": "Guten Abend,",
+        "goodNight": "Gute Nacht,",
+        "subHeader": {
+          "fallback": "Viel Erfolg bei deinen heutigen Aufgaben!",
+          "whatYouDidToday": "Was du heute geschafft hast",
+          "whatTeamDidToday": "Was dein Team heute geschafft hat"
+        },
+        "ofTeam": "vom Team",
+        "agent": "Agent",
+        "agents": "Agents"
+      },
+      "todos": "heutige Aufgaben",
+      "news": "News"
+    },
+    "report": {
+      "ahtOnSkill": {
+        "title": "Deine AHTs nach Prozess",
+        "today": "Heute",
+        "30days": "30 Tage",
+        "min": "min",
+        "help": {
+          "header": "Die farbliche Darstellung der Boxen erfolgt nach Vergleich zu den Zeiten anderer Sachbearbeiter auf dem gleichen Prozess.",
+          "header2": "% eigene AHT im Vergleich zur Team-AHT"
+        }
+      },
+      "timetracking-last": {
+        "title": "Deine letzte Zeiterfassung - {{hours}}h (1 Tag)",
+        "on-skill": "auf Prozess",
+        "unproductive-skill": "unproduktiv auf Prozess",
+        "unproductive-global": "unproduktiv global"
+      },
+      "timetracking-month": {
+        "title": "Deine Zeiterfassung der letzten 30 Tage",
+        "day": "Tag",
+        "hours": "Stunden",
+        "process-count": "Anzahl Vorgänge",
+        "duration": "Dauer",
+        "processes": "Anzahl",
+        "date": "Datum"
+      },
+      "no-user-report": {
+        "title": "persönlicher Report - keine Daten verfügbar"
+      }
+    },
+    "hrefNotAllowed": "Der Link wurde nicht gefunden oder eine notwendige Berechtigung fehlt Ihnen."
+  },
+  "sample": {
+    "disputes": {
+      "title": "Klärfallbearbeitung",
+      "business-selector-default": "Keine Auswahl",
+      "table": {
+        "case-value-instance-id": "Vorgangs-ID",
+        "case-value-internal-result": "Ergebnis intern",
+        "case-value-internal-comment": "Kommentar intern",
+        "case-value-internal-type": "Fehlertyp intern",
+        "case-value-internal-importance": "Auswirkung intern",
+        "case-value-internal-tester": "Tester intern",
+        "case-value-external-result": "Ergebnis extern",
+        "case-value-external-comment": "Kommentar extern",
+        "case-value-external-type": "Fehlertyp extern",
+        "case-value-external-importance": "Auswirkung extern",
+        "case-value-external-tester": "Tester extern"
+      },
+      "clearance-dialog": {
+        "title": "Klärung",
+        "internal-header": "Intern",
+        "external-header": "Extern",
+        "result": "Ergebnis",
+        "comment": "Kommentar",
+        "type": "Typ",
+        "importance": "Auswirkung",
+        "tester": "Prüfer",
+        "internal-correct": "intern richtig",
+        "external-correct": "extern richtig",
+        "save-success": "Klärung gespeichert"
+      }
+    },
+    "sample-processing": {
+      "title": "Stichprobenbearbeitung",
+      "title2": "Erfassung",
+      "process-details": "Prozessdetails",
+      "checklist": "Checkliste",
+      "additional-information": "Zusatzinformationen",
+      "hint": "Ergänzende Hinweise aus dem Arbeitsvorrat",
+      "inputs": {
+        "privacy": {
+          "title": "In-/Extern"
+        },
+        "processing-date": "Bearbeitungsdatum",
+        "tested-user": "Geprüfter",
+        "reference-date": "Referenzdatum",
+        "error": "Fehler",
+        "error-type": "Fehlertyp",
+        "impact": "Auswirkung",
+        "correction-necessary": "Korrektur notwendig",
+        "correction-performed": {
+          "title": "Korrektur durchgeführt",
+          "options": {
+            "not-possible": "nicht möglich"
+          }
+        },
+        "comment": "Kommentar",
+        "not-valued": "Nicht wertbar",
+        "radio-table-view": {
+          "not-relevant": "nicht rel"
+        }
+      },
+      "processingType": {
+        "worklist": "Arbeitsvorrat",
+        "new": "Neu",
+        "specific": "Spezifisch"
+      },
+      "loading-behaviour": {
+        "randomly": "Eine zufällige Stichprobe laden",
+        "by-due-date": "Eine Stichprobe sortiert nach Fälligkeitsdatum laden",
+        "by-processing-date": "Eine Stichprobe sortiert nach Bearbeitungsdatum laden",
+        "by-agent": "Eine Stichprobe sortiert nach Bearbeiter laden",
+        "by-transaction-id": "Eine Stichprobe sortiert nach Vorgangsnummer laden"
+      },
+      "dialog": {
+        "discard-sample": {
+          "title": "Stichprobe verwerfen?",
+          "message": "Möchten Sie die geladene Stichprobe wirklich verwerfen?"
+        }
+      }
+    },
+    "notifications": {
+      "no-samples": "Es sind keine Stichproben vorhanden. Bitte passen Sie die Auswahl an oder veranlassen Sie den Upload eines Arbeitsvorrats.",
+      "all-samples": "Gesamt",
+      "tested-samples": "Getestet",
+      "open-samples": "Offen",
+      "locked-samples": "Gesperrt",
+      "to-be-tested-is-mandatory": "Es muss ein Geprüfter ausgewählt sein",
+      "process-id-is-mandatory": "Es muss eine Vorgangs ID angegeben werden"
+    },
+    "edit": "Bearbeiten",
+    "cancel": "Abbrechen",
+    "back": "Zurück"
+  },
+  "checklist-manager": {
+    "name": "Checklisten-Eintrag",
+    "title": "Checklisten Manager",
+    "type": "Typ",
+    "checklist-type":  "Checklisten-Typ",
+    "categorie-group": "Kategorie Gruppe",
+    "switchEnable": "Optional",
+    "create-checklist": "Checkliste anlegen",
+    "secure-question": "Möchten Sie wirklich eine neue Checkliste erstellen?",
+    "change-checklist-type": "Checklisten-Typ ändern",
+    "change-checklist-type-message":"Einen neuen Typ für die Checkliste wählen",
+    "add-new-process": "Prozess hinzufügen",
+    "editor": {
+      "new-checklist": "Checkliste anlegen"
+    },
+    "label": {
+      "info": "Bitte füllen Sie vor dem Speichern alle Felder aus",
+      "cancelsave": "Duplikat: Die Kategoriegruppe muss für den Typ Überschrift eindeutig sein.",
+      "canceldelete": "Es ist nicht möglich, eine Checkliste vollständig zu leeren. Bitte erstellen Sie eine neue Checkliste",
+      "normal": "Normal",
+      "Categorised" : "Mit Überschrift",
+      "Categorised-grouped": "Geteilte Stichprobe",
+      "selectprocess": "Wählen Sie bitte einen Prozess aus",
+      "title": "Überschrift"
+    }
+  },
+  "toastrMessages": {
+    "load-error": "Es ist ein Problem beim Laden aufgetreten.",
+    "saveSuccess": "erfolgreich gespeichert",
+    "updateRejected": "Änderungen wurden aufgrund Überschneidungen mit einer anderen Anlage nicht übernommen. Siehe dazu ID: ",
+    "saveDenied": "Aufgrund einer bestehenden aktiven Anlage ist das Speichern nicht möglich. Siehe dazu ID: ",
+    "saveErrorOccurred": "Fehler beim Speichern ist aufgetretten. Eventuell sind nicht alle Daten gespeichert.",
+    "newRejected": "Speicherung inaktiver Elemente wird nicht unterstützt.",
+    "notAllowed": "Es fehlt eine Berechtigung die Seite zu öffnen.",
+    "deniedConfluencePage": "Die gewünschte Seite ist gesperrt.",
+    "downloadConfluencePageAttachments": "Die Datei kann unter Datenanhänge heruntergeladen werden.",
+    "deleteSuccess": "Daten erfolgreich gelöscht",
+    "deleteDenied": "Es ist ein Fehler beim Löschen aufgetretten",
+    "routingDenied": "Die Weiterleitung wird unterdrückt.",
+    "multiselection-denied-deselect-value": "Auswahl kann nicht entfernt werden."
+  },
+  "file": {
+    "version-number": "Versionsnummer",
+    "add": "Datei hinzufügen",
+    "file-upload":"Datei-Upload",
+    "filename-to-server": "Dateiname am Server",
+    "uploaddate":"Lokaler Dateinname",
+    "file-upload-time": "Upload-Zeitpunkt",
+    "supported-format": "Unterstütztes Format",
+    "title": "Datei-Upload",
+    "title-editor": "Datei-Upload Editor",
+    "name-of-file": "Dateiname",
+    "mime-type": "Dateiformat",
+    "filesize": "Dateigröße",
+    "action": "Handlung",
+    "uploadDate": "Upload",
+    "fileModifikation": "Modifikation",
+    "newData": "Datei angelegt",
+    "overwrite": "überschrieben",
+    "importDate": "Importdatum",
+    "fileExits": "Eine Datei zum angegebenden Datum für die Kategorie ist bereits hochgeladen. Zum Überschreiben der alten Datei bitte Speichern drücken.",
+    "fileExitsTitle": "Achtung - bestehende Datei",
+    "fileUploadLabel": "oder Datei auswählen",
+    "dropdownLabel": "Datei hierhin ziehen zum Hochladen",
+    "hughFile": "Abbruch da die Datei zu groß ist.",
+    "wrongFiletyp": "Dateiformat wird nicht unterstützt.",
+    "notCompleteInput": "Die Eingabefelder sind nicht vollständig ausgewählt. Bitte erneut eingeben.",
+    "path": "Pfad",
+    "format": "Format",
+    "overwrite-old-file": "Achtung, die bestehende Datei wird unwiderruflich überschrieben.",
+    "table-content": {
+      "overwriteOldfile" : "Datei überschrieben",
+      "newData" : "Datei neu angelegt"
+    }
+  },
+  "documentation": {
+    "release_version": "Freigegebene Version",
+    "documentation": "Dokumentation",
+    "pinboard": "Pinnwand",
+    "lastChange": "Letzte Änderung",
+    "date": "Änderungsdatum",
+    "curr_version": "Entwurfsversion",
+    "attachments": "Dateien",
+    "attachment": "Anhänge",
+    "summary": "Inhalt",
+    "viewGroup": "Beschränkung auf folgende Gruppen",
+    "metaData": "Seiteninformationen",
+    "info": "Über das Dokument"
+  },
+  "label": {
+    "sort": "Sortieren",
+    "applyFilter": "Filter anwenden",
+    "contains": "enthält",
+    "startswith": "beginnt mit",
+    "set-value": "Wert eingeben"
+  },
+  "Mandantor1u1": {
+    "intraday": "Intraday",
+    "booking-date":"Buchungsdatum",
+    "booking-date-from":"Buchungsdatum von:",
+    "booking-date-until":"Buchungsdatum bis:",
+    "manualData": "Manuelle Erfassung Auswertung",
+    "manualDataAdmission": "Manuelle Erfassung",
+    "sapUserCreate": "SAP Benutzer anlegen",
+    "sapUserCapture": "Benutzer Erfassung",
+    "sapUserDetected": "Benutzer erfasst",
+    "manualDetected": "Manuelle Erfassung",
+    "manualDataDetected": "Manuelle Daten erfassen",
+    "currentValueOfData": "Stand der manuellen Daten",
+    "differentsOfData": "Abweichungen von Meldungen und Buchungen",
+    "user": "Benutzer",
+    "capacityOfCPD": "CPD Volumen",
+    "inventoryOfCPD": "CPD Bestand",
+    "date": "Datum",
+    "digiTV": "DigiTV",
+    "inputData": "Eingang",
+    "clarification": "Klärfälle",
+    "complete": "Komplett",
+    "stack": "Stapel",
+    "category": "Kategorie",
+    "bookedOfRP": "RP gebucht",
+    "allStacks": "alle Stapel",
+    "fromStacks": "von Stapel",
+    "toStacks": "bis Stapel",
+    "editStack": "bearbeiteter Stapel",
+    "worker": "Benutzer",
+    "sapUser": "SAP User",
+    "klaeruser": "Kläruser",
+    "assignmentDate": "Erfassungsdatum",
+    "deviation": "Abweichung",
+    "bk": "BK"
+  },
+  "vodafone": {
+    "manual-data-headline": "Manuelle Erfassung",
+    "date":"Zuordnungsdatum",
+    "category": "Kategorie",
+    "incoming": "Eingang",
+    "outgoing": "Ausgang",
+    "stock": "Bestand",
+    "volume": "Volumen",
+    "current-user": "Aktueller User",
+    "user-login-assignment": {
+      "headline": "Vodafone User-Login Zuordnung"
+    },
+    "manual-data-overview": {
+      "headline": "Vodafone Manuelle Erfassung Übersicht"
+    }
+  },
+  "user-settings": {
+    "title": "Profil",
+    "menu": {
+      "orientation": "Menüausrichtung",
+      "sidebar": "Links",
+      "topMenu": "Oben"
+    },
+    "avatar": {
+      "title": "Avatar wechseln",
+      "confirm-delete": "Sind sie sicher das der Avatar gelöscht werden soll?",
+      "category": {
+        "animals": "tiere",
+        "female": "weiblich",
+        "male": "männlich",
+        "flowers": "blumen",
+        "fantasy": "fantasy"
+      }
+    },
+    "landing-page": {
+      "title": "Startseite",
+      "dashboard": "Dashboard"
+    },
+    "language": {
+      "title": "Sprache ändern",
+      "label": "Sprache",
+      "languages": {
+        "en": "Englisch",
+        "de": "Deutsch",
+        "pl": "Polnisch"
+      }
+    }
+  },
+  "password": {
+    "title": "Passwort ändern",
+    "form": {
+      "oldpassword": "Altes Passwort",
+      "oldpassword.placeholder": "Altes Passwort",
+      "newpassword": "Neues Password",
+      "newpassword.placeholder": "Neues Passwort",
+      "confirmpassword": "Neues Passwort bestätigen",
+      "confirmpassword.placeholder": "Bestätige dein neues Passwort",
+      "button": "Speichern",
+      "remove": "Passwort löschen"
+    },
+    "messages": {
+      "success": "Passwort geändert",
+      "error": "Ein Fehler ist aufgetreten! Das Passwort konnte nicht geändert werden.",
+      "invalidPassword": "Das alte Passwort ist ungültig",
+      "dontmatch": "Das bestätigte Passwort entspricht nicht dem neuen Passwort!",
+      "validate": {
+        "newpassword": {
+          "required": "Ein neues Passwort wird benötigt.",
+          "minlength": "Das neue Passwort muss mindestens 8 Zeichen lang sein",
+          "maxlength": "Das neue Passwort darf nicht länger als 50 Zeichen sein"
+        },
+        "confirmpassword": {
+          "required": "Das Passwort muss bestätigt werden.",
+          "minlength": "Das bestätigte Passwort muss mindestens 8 Zeichen lang sein",
+          "maxlength": "Das bestätigte Passwort darf nicht länger als 50 Zeichen sein"
+        },
+        "oldpassword": {
+          "required": "Das alte Passwort muss zur Änderung eingegeben werden"
+        }
+      }
+    }
+  },
+  "timetrack": {
+    "header": "TimeTracking für",
+    "title": "Timetracking",
+    "date": "{{date | date:'EEEE, dd. MMMM yyyy'}}",
+    "activity": "Vorgang",
+    "mandantor": "Mandant",
+    "team": "Team",
+    "unproductive": "Unproduktiv",
+    "process": "Prozess",
+    "count": "Anzahl",
+    "completed": "Erledigt",
+    "resubmission": "Wiedervorlage",
+    "resubmissionAt": "Wiedervorlage zum",
+    "datepicker": {
+      "current-text": "Heute",
+      "clear-text": "Löschen",
+      "close-text": "Fertig"
+    },
+    "comment": "Kommentar",
+    "edit": "Bearbeitung",
+    "button": {
+      "pause": "Unterbrechen",
+      "resume": "Fortsetzen",
+      "nextProcess": "Nächster Vorgang",
+      "lastProcess": "Letzter Vorgang"
+    },
+    "error": {
+      "process": "Bitte ein Prozess auswählen",
+      "team": "Bitte ein Team auswählen",
+      "process1": "Das Feld entspricht nicht den Vorgaben ({{regexp}}) für die erste Vorgangs-ID. Bitte die Eingabe überprüfen.",
+      "process2": "Das Feld entspricht nicht den Vorgaben ({{regexp}}) für die zweite Vorgangs-ID. Bitte die Eingabe überprüfen.",
+      "processResult": "Entweder 'Erledigt' oder 'Wiedervorlage' muß ausgewählt sein.",
+      "resubmission": "Das Wiedervorlagedatum muß in der Zukunft liegen."
+    },
+    "server": {
+      "error": {
+        "title": "Fehler",
+        "text": "Beim Speichern ist ein Fehler auf dem Server aufgetreten. Die Daten wurden lokal zwischengespeichert und werden beim nächsten Start der Applikation erneut an den Server gesendet."
+      }
+    },
+    "info": {
+      "paused": "Timetracking ist im Pause-Modus. Um fortzufahren bitte \"Fortsetzen\" anklicken",
+      "unproductive": "Timetracking ist im Unproduktiv-Modus. Zum  Wechseln bitte den Haken bei 'Unproduktiv' entfernen."
+    }
+  },
+  "production-plan": {
+    "day-to-filter": "Tag auswählen",
+    "title": "Produktionsplan",
+    "only-my-tasks": "nur meine Tasks",
+    "process": "Prozess",
+    "responsible": "Verantwortlicher",
+    "replacement": "Stellvertreter",
+    "replacement-one": "1. Stellvertreter",
+    "replacement-two": "2. Stellvertreter",
+    "move-time-frame": "Zeitfenster wochenweise verschieben",
+    "work-instructions": "Arbeitsanweisung",
+    "with-documents": "mit Dokumenten",
+    "documents": {
+      "false": "Ohne Dokumente",
+      "true": "Mit Dokumenten"
+    },
+    "status": {
+      "X": "GESCHLOSSEN",
+      "-": "-",
+      "O": "OFFEN",
+      "C": "Nicht notwendig (geschlossen)"
+    },
+    "with-mandatory-documents": "mit Pflicht-Dokumenten",
+    "hint-doc": "Dokument-Hinweis",
+    "reminders": "Erinnerungen",
+    "required-documents": "Benötigte Dokumente",
+    "history": "Historie",
+    "cip-category": "Timetracking-Kategorie",
+    "process-category": "Prozesskategorie",
+    "no-workinstruction": "keine Arbeitsanweisung hinterlegt",
+    "no-documents": "kein Dokumentenhinweis hinterlegt",
+    "ics": {
+      "label": "In IKS",
+      "ics": "IKS",
+      "ics-name": "Bezeichnung im Internen Kontrollsystem"
+    },
+    "task-state": {
+      "label": "Taskstatus",
+      "all": "Alle",
+      "open": "Offen",
+      "open-review": "Offen / Review",
+      "review-open": "Review / Offen",
+      "completed": "Erledigt / Prüfung OK",
+      "review": "Review",
+      "none": "Nicht nötig / möglich",
+      "closed": "Nicht nötig / möglich (geschlossen)"
+    },
+    "edit-task": {
+      "title": "Aufgabe bearbeiten",
+      "tech-param":"Technische Parameter",
+      "have-to-select-responsible": "Ein verantwortlicher Mitarbeiter muss mindestens angegeben werden.",
+      "generate-turnus": "Weiter",
+      "by": "von",
+      "status": "Status",
+      "comment": "Kommentar",
+      "add-file": "Datei auswählen",
+      "document-type": "Typ",
+      "document-title": "Titel",
+      "document-file-name": "Dateiname",
+      "document-date": "Datum",
+      "changed-date": "Aktualisiert am",
+      "review-date": "Erledigt und Geprüft am",
+      "completed-date": "Erledigt am",
+      "documents": "Dokumente",
+      "add-document": "Dokument hinzufügen",
+      "messages": {
+        "processing-time-exceeded-for-user": "Die Bearbeitungszeit für diese Aufgabe ist überschritten. Kommentare und Dokumente können weiterhin hinzugefügt werden. Bei Bedarf an einen Vorgesetzem wenden.",
+        "processing-time-exceeded-for-manager": "Die Bearbeitungszeit für diese Aufgabe ist überschritten. Kommentare und Dokumente können weiterhin hinzugefügt werden. Bei Bedarf an einen Compliancebeauftragten wenden.",
+        "incomplete-information": "Zum Hochladen einer Datei ist das Feld Typ erforderlich",
+        "file-too-large": "Die hochzuladende Datei ist zu groß (max. 100MB)",
+        "max-file-count-reached": "Maximale Anzahl an Dokumenten wurde erreicht. Es können keine weiteren Dokumente hochgeladen werden.",
+        "min-documents-error": "weitere Dokumente werden benötigt",
+        "processing-time-not-reached": "Das Bearbeiten der Aufgabe ist erst zu einem späteren Zeitpunkt möglich.",
+        "have-to-comment": "Zum Schließen der Aufgabe einen Kommentar anfügen."
+      },
+      "toastr-messages": {
+        "comment-required-error": {
+          "title": "Kommentar benötigt",
+          "message": "Bei der nachträglichen Bearbeitung muss ein Kommentar angebracht werden."
+        }
+      }
+    },
+    "edit": {
+      "takeOldDate": "Termine von vorheriger Terminserie beibehalten",
+      "takeNewDate": "Neue Termine übernehmen"
+    },
+    "admin": {
+      "title": "Produktionsplan bearbeiten",
+      "create-task": "Neuer Prozess",
+      "create-task-popover": "einen neuen Prozess anlegen",
+      "mass-editor-popover": "Zum Bearbeiten mehrerer Prozesse müssen alle entsprechend in der Tabelle markiert werden.",
+      "reminder-one": "Erinnerung 1",
+      "reminder-two": "Erinnerung 2",
+      "reminder-three": "Erinnerung 3",
+      "monday": "Montags",
+      "tuesday": "Dienstags",
+      "wednesday": "Mittwochs",
+      "thursday": "Donnerstags",
+      "friday": "Freitags",
+      "saturday": "Samstags",
+      "sunday": "Sonntags",
+      "automaticallyDue": "Auto-Fälligkeit",
+      "minDocuments": "Anzahl Pflichtdokumente",
+      "hintDoc": "Hinweis (Dokumente)",
+      "ics-controls": "zugehörige Kontrolle ICS",
+      "tasksEdit": "Task bearbeiten",
+      "taskDate": "Datum",
+      "addNewTask": " Datum hinzufügen",
+      "invalidDateError": "Ungültiges Datum. Aufgaben können nur zukünftig geplant werden",
+      "taskAlreadyExists": "Zum ausgewählten Datum existiert bereits ein Eintrag",
+      "confirmRemovingTask": "Bitte das Entfernen des Datum bestätigen",
+      "statusNotSelected": "Status wurde nicht ausgewählt",
+      "taskStatus": "Status",
+      "edit": "Bearbeiten",
+      "editDates": "Datum bearbeiten",
+      "edit-single-dates": "Einzeltermine anlegen",
+      "editTask": "Aufgabe bearbeiten",
+      "type": "Typ",
+      "role": "neue Terminregel erklären",
+      "saveTasks": "Taskstermine speichern",
+      "taskdayName": "Wochentag",
+      "holiday": "Feiertag",
+      "postponedOfHoliday": "Termin vom Feiertag ",
+      "source": "Quelle",
+      "sourceOld": "Altbestand",
+      "sourceNew": "Neuer Termin",
+      "sourceMix": "Neuer / alter Termin",
+      "sourceManuel": "manuell angelegt",
+      "sourcedefault": "Mehrfache Überschneidungen",
+      "mass-editor-dialog": {
+        "title": "Mehrfachänderung",
+        "confirm-title": "Betroffene Aufgaben",
+        "confirm-more": "...und {{count}} mehr"
+      }
+    }
+  },
+  "menu-editor": {
+    "item-name": "Standard Titel",
+    "item-path": "Pfad",
+    "item-endpoint": "Endpoint",
+    "item-body": "REST call body",
+    "item-frame": "Im neuen Fenster darstellen",
+    "item-show": "Darstellung",
+    "translation-key": "Übersetzungs-Key",
+    "item-type": {
+      "APPLICATION_MENU": "Anwendung",
+      "HREF": "URL",
+      "REST": "REST",
+      "REPORT": "Seite",
+      "DASHBOARD": "Dashboard",
+      "NODE": "Menugruppe",
+      "CONFLUENCE": "Confluence",
+      "title": "Typ"
+    },
+    "queryName": "Query",
+    "resourceName": "Ressource",
+    "title": "Menü verwalten",
+    "save": "Speichern",
+    "dashboard": "Dashboard",
+    "is-top-level": "Admin fav.",
+    "icon": "Icon"
+  },
+  "news-editor": {
+    "title": "News",
+    "news-date": "Veröffentlichungsdatum",
+    "published": "Veröffentlicht",
+    "news-title": "Titel",
+    "high-priority": "Hohe Priorität",
+    "type": "Typ",
+    "global": "Für alle",
+    "external": "Extern",
+    "date-to": "Gültig bis",
+    "owner": "Ersteller",
+    "last-changed": "Letzte Änderung",
+    "last-changed-from": "Durch",
+    "news-language": "Sprache",
+    "news-content": "Inhalt",
+    "edit-news": "News bearbeiten",
+    "create-news": "News erstellen",
+    "navigate-to-news-manager-popover": "Zum Newsmanager",
+    "languages": {
+      "german": "deutsch",
+      "english": "englisch",
+      "polish": "polnisch"
+    },
+    "wizard": {
+      "title": "News Editor",
+      "legend1": "Inhalt",
+      "legend2": "Konfiguration"
+    },
+    "types": {
+      "information": "Information",
+      "appointment": "Termin",
+      "team": "Team",
+      "maintenance": "Wartung",
+      "disorder": "Störung"
+    },
+    "notifications": {
+      "inactive": "Diese News wird niemandem angezeigt, sie ist nicht aktiv",
+      "visible": "Diese News wird dem entsprechenden Personenkreis angezeigt",
+      "mandantor-site-missmatch": "Diese News wird niemandem angezeigt, es muss eine Standort-Mandant Kombination oder 'für alle' gewählt werden. Ist die News NUR für externe bestimmt muss wenigstens ein Mandant gewählt werden.",
+      "date-missmatch": "Diese News wird (noch) niemandem angezeigt, der Gültigkeitszeitraum beinhaltet nicht den heutigen Tag",
+      "content-missing": "Diese News wird niemandem angezeigt, da sie noch keinen Inhalt hat",
+      "page-one-visible-for": "Diese News ist für die hinterlegten Sprachen sichtbar",
+      "page-two-visible": "Diese News wird erst angezeigt wenn der Inhalt ordnungsgemäß konfiguriert wurde",
+      "externals-only": "Diese News ist nur für externe Sichtbar",
+      "page-one-hint": "Bitte jede Sprache befüllen, ist eine Sprache leer wird die News bei entsprechender Sprache nicht angezeigt",
+      "error": {
+        "invalidDate": "Es muss ein Newsdatum gewählt werden",
+        "invalidDateTo": "Es muss ein Datum für 'Gültig bis' gewählt werden",
+        "invalidDateToBefore": "Das Datum für 'Gültig bis' darf nicht vor dem Newsdatum liegen"
+      }
+    }
+  },
+  "dashboard-editor": {
+    "error-dialog": {
+      "title": "Server Fehler",
+      "text": "Beim Laden der Dashboards ist ein Fehler aufgetreten, sie werden zur vorherigen Seite umgeleitet"
+    },
+    "query-dialog": {
+      "title": "Query auswählen"
+    },
+    "html-editor-dialog": {
+      "title": "HTML editor"
+    },
+    "filters-selector-dialog": {
+      "title": "Filter auswählen"
+    },
+    "widget-selector-dialog": {
+      "title": "Widget auswahl"
+    },
+    "filters": "Filter",
+    "code-editor-dialog": {
+      "title": "Code editor"
+    },
+    "dashboard": "Dashboard",
+    "table-cell-callback": "Callback auf Zelle"
+  },
+  "taskCycle": {
+    "task-summary": "Terminübersicht",
+    "turnus-wizard": "Turnus",
+    "pointOfView": "Betrachtung",
+    "selectWorkingday": "Arbeitstag",
+    "workdayOrWeekday": "Arbeits-/Wochentage",
+    "workingdaysPerWeek": "Arbeitswoche",
+    "turnusSelection": "Turnusauswahl",
+    "turnusComment": "Turnusbezeichnung (Freitext)",
+    "preview": "Vorschau",
+    "bookmark": "Termine übernehmen",
+    "bootmarktitle": "Termine in die Liste übernehmen",
+    "turnus": {
+      "saveSuccessDatesOfTask": "Termine erfolgreich gespeichert",
+      "saveErrorByDatesOfTask": "Fehler beim Speichern der Termine aufgetretten.",
+      "saveSuccessTaskType": "Taskeinstellung erfolgreich gespeichert.",
+      "noDatesOfTask": "keine Änderung der Fälligkeiten",
+      "daily": "täglich",
+      "weekly": "Wöchentlich",
+      "monthly": "Monatlich",
+      "quarterly": "quartalweise",
+      "yearly": "jählich",
+      "considerWeek": "wöchentlich",
+      "considerMonth": "monatlich",
+      "considerWorkdays": "Arbeitstage",
+      "every": "jede",
+      "all": "jeden",
+      "workday": "Arbeitstage",
+      "weekday": "Wochentage",
+      "startMonth": "nach Anfang des Monats",
+      "endMonth": "vor Ende des Monats",
+      "removeOldDate": "Alte Daten entfernen",
+      "takeOldDate": "Termine von vorheriger Terminserie beibehalten",
+      "takeNewDate": "Neue Termine übernehmen"
+    },
+    "kindOfDay": {
+      "AT": "AT",
+      "PayDay": "Zahltag",
+      "weekday": "Wochentag"
+    },
+    "dayname-narrow" :{
+      "0": "So",
+      "1": "Mo",
+      "2": "Di",
+      "3": "Mi",
+      "4": "Do",
+      "5": "Fr",
+      "6": "Sa",
+      "7": "So"
+    },
+    "dayname": {
+      "": "",
+      "0": "Sonntag",
+      "1": "Montag",
+      "2": "Dienstag",
+      "3": "Mittwoch",
+      "4": "Donnerstag",
+      "5": "Freitag",
+      "6": "Samstag",
+      "7": "Sonntag",
+      "8": "",
+      "sunday": "Sonntag",
+      "monday": "Montag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch",
+      "thursday": "Donnerstag",
+      "friday": "Freitag",
+      "saturday": "Samstag",
+      "Sunday": "Sonntag",
+      "Monday": "Montag",
+      "Tuesday": "Dienstag",
+      "Wednesday": "Mittwoch",
+      "Thursday": "Donnerstag",
+      "Friday": "Freitag",
+      "Saturday": "Samstag",
+      "selectDayname": "Wochentag"
+    },
+    "counter": {
+      "first": "erster",
+      "second": "zweiter",
+      "third": "dritter",
+      "fourth": "vierter",
+      "fifth": "fünfter",
+      "last": "letzter",
+      "penultimate": "vorletzter",
+      "select-number": "Nummer im Monat",
+      "select-at": "Arbeitstag im Monat"
+    },
+    "relation": {
+      "before": "Vorziehen auf letztmöglichen Arbeitstag",
+      "exactly": "Beibehalten",
+      "ignore": "Löschen",
+      "after": "Verschieben auf nächstmöglichen Arbeitstag"
+    },
+    "repeat": {
+      "every": "jede",
+      "all": "jeden",
+      "anything": "jedes"
+    },
+    "interval": {
+      "week": "Woche",
+      "month": "Monat",
+      "quarterly": "Quartal",
+      "year": "Jahr",
+      "weekdayIn": "Wochentage im",
+      "weekday": "Wochentage",
+      "paydayIn": "Zahltage im",
+      "payday": "Zahltage",
+      "workday": "Arbeitstag",
+      "atIn": "Arbeitstage im",
+      "at": "Mo - Fr",
+      "at6": "Mo - Sa",
+      "at7": "Mo - So"
+    },
+    "handlingInformation": {
+      "repeatXtimes": "Wiederholung auswählen ( jedes x-te Mal) ",
+      "choiceOfTheDates": "Auswahl einzelner Termine",
+      "interval": "Zeitraum für den die Termine ermittelt werden:",
+      "startDate": "Beginn der Terminserie",
+      "endDate": "Ende der Terminserie",
+      "endless": "ohne Ende",
+      "turnusCycle": "Turnus/Zykleneigenschaft",
+      "turnus": "Turnus",
+      "use-turnus": "Turnus verwenden",
+      "daysInTurnus": "Zu berücksichtigende Tage im Turnus",
+      "weekdaysInTurnus": "einzelne Wochentage im Turnus",
+      "weekdays": "Wochentage",
+      "recurrence": "Verhalten des Turnuses im Zeitraum",
+      "choiceSeveralDate": "Auswahl expliziter Termine",
+      "choiceRecurrence": "Auswahl periodischer Wiederkehr",
+      "handlingVacation": "Umgang mit Terminen, die auf Feiertage fallen:",
+      "handlingVacationText": "An dieser Stelle kann man eine Regel für den Umgang von Terminen, die auf einen Feiertagen fallen, angeben.",
+      "choiceATs": "Auswahl der ATs",
+      "choiceATLabel": "Auswahl ATs",
+      "dayInfo": "Termine an dem Tag",
+      "specialDayNameInTurnus": "Auswahl eines Wochentages im Turnus"
+    }
+  },
+  "navigation-dashboard": {
+    "title": "Dashboard Übersicht",
+    "no-dashboards": "keine Dashboards vorhanden",
+    "only-favorites": "Nur Favoriten"
+  },
+  "navigation": {
+    "title": "Navigation",
+    "topics": "Topics",
+    "topic": "Topic",
+    "resources": "Ressourcen",
+    "resource": "Ressource"
+  },
+  "navigation-manager": {
+    "title": "Navigation manager",
+    "columns": {
+      "title": "Topic titel"
+    }
+  },
+  "navigation-editor": {
+    "title": "Navigation editor"
+  },
+  "filter-manager": {
+    "filter-static": "Statische Filter",
+    "filter-text": "Text-Filter",
+    "filter-date": "Datums-Filter",
+    "filter-options": "Options-Filter",
+    "filter-manager": "Filter Manager",
+    "create-filter": "Filter anlegen",
+    "edit-filter": "Filter bearbeiten",
+    "new-filter": "Neuer Filter",
+    "col-description": "BEZEICHNUNG",
+    "col-variable-name": "VARIABLENNAME",
+    "col-label": "BESCHRIFTUNG",
+    "col-comment": "BESCHREIBUNG",
+    "col-type": "TYP",
+    "col-modified": "GEÄNDERT",
+    "col-modified-by": "GEÄNDERT DURCH",
+    "editor": {
+      "description": "Bezeichnung",
+      "variable-name": "Variablenname",
+      "label": "Beschriftung",
+      "combobox": "Als Combobox",
+      "comment": "Beschreibung",
+      "options-provider": "Filter options provider",
+      "option-name": "Name",
+      "option-type": "Typ",
+      "option-value": "Wert",
+      "option-default": {
+        "check": "Mark as default",
+        "uncheck": "Remove default mark"
+      },
+      "selection": "Auswahl...",
+      "interval": "Intervall",
+      "static-filter": "Statischer Filter"
+    },
+    "errors": {
+      "exists": "Filter existiert bereits",
+      "invalid-field": "Invalid value for field '{{field}}'! Message: {{message}}",
+      "unknown-error": "Error - unable to save filter"
+    }
+  },
+  "query-manager": {
+    "query-manager": "Query Manager",
+    "create-query": "Query anlegen",
+    "editor": {
+      "edit-query": "Query bearbeiten",
+      "new-query": "Query anlegen",
+      "label-name": "Name",
+      "label-comment": "Kommentar",
+      "label-query": "Query",
+      "validate": "Prüfen",
+      "operation": {
+        "label": "Query Category",
+        "label-type": "Query Type",
+        "avoid-select-execute-error": "Statistik-Auswertung für eine Select-Query nicht verfügbar",
+        "select": "SELECT",
+        "execute": "EXECUTE",
+        "all": "Alle Queries",
+        "filter": "Filter",
+        "common": "Allgemein",
+        "case-handling": "Case-Handling"
+      },
+      "skip-validation": "Prüfung überspringen",
+      "validate-success": "Query ist valide",
+      "validate-error": "Query ist fehlerhaft",
+      "validate-error-executable": "Query konnte nicht ausgeführt werden - fehlerhaft oder nicht EXPLAINable",
+      "validate-is-executable": "Query ist ausführbar und kann die Stabilität des Systems beeinflussen",
+      "really-skip-validation": "Prüfung für die \"Executable Generic Query\" wirklich überspringen?",
+      "preview": "Vorschau",
+      "error": {
+        "name-exists": "Eine Abfrage mit diesem Namen existiert bereits"
+      }
+    }
+  },
+  "dashboard-manager": {
+    "add-resource": "Neuer Eintrag",
+    "dashboard-manager": "Dashboardmanager",
+    "create-new": "Neues Dashboard",
+    "delete-message": "Dashboard löschen {{title}}?",
+    "col-title": "Titel",
+    "col-modified": "Bearbeitet am",
+    "col-modified-by": "Bearbeitet durch",
+    "show-on-overview": "Auf 'DASHBOARDS'",
+    "auto-refresh": "Aktualisierung",
+    "auto-refresh-interval": "Aktualisierungsintervall",
+    "properties": "Eigenschaften",
+    "widget-type": "Widgettyp",
+    "widget-title": "Widgettitel",
+    "widget-resources": "Topic Ressource",
+    "chart-title": "Diagrammtitel",
+    "chart-type": "Diagrammtyp",
+    "query": "Abfrage",
+    "column-by-column": "Spaltenweise",
+    "page-size": "Elemente pro Seite",
+    "excel-export": "Excel-Export",
+    "html-content": "HTML Inhalt",
+    "filters": "Filter",
+    "manage": "Verwalten",
+    "navigation-columns": "Spalten zur Navigation",
+    "show-trend-line": "Zeige Trendline Skala",
+    "show-grid-lines": "Zeige Linien",
+    "chart-category-label": "Kategorie label",
+    "chart-values-label": "Values label",
+    "chart-trendline-label": "Trend line values label",
+    "add-widget-type": {
+      "chart": "Diagramm",
+      "table": "Tabelle",
+      "text": "Text",
+      "existing": "Vorhandenes",
+      "topic": "Topic"
+    },
+    "error-dialog": {
+      "title": "Server Fehler",
+      "text": "Beim Laden der Dashboards ist ein Fehler aufgetreten, sie werden zur vorherigen Seite umgeleitet"
+    },
+    "query-dialog": {
+      "title": "Abfrage auswählen",
+      "select-query-name": "Abfragename",
+      "table": {
+        "name": "Name"
+      }
+    },
+    "html-editor-dialog": {
+      "title": "HTML Editor"
+    },
+    "filters-selector-dialog": {
+      "title": "Filter auswählen"
+    },
+    "navigation-columns-dialog": {
+      "title": "Manage navigation columns",
+      "BUTTON_LINK": "Button + link",
+      "EMAIL_LINK": "Email + link",
+      "ICON_LINK": "Icon + link",
+      "TEXT_LINK": "Text + link"
+    },
+    "widget-selector-dialog": {
+      "title": "Widget Auswahl",
+      "table": {
+        "title": "Titel",
+        "type": "Typ"
+      }
+    },
+    "topic-create-dialog": {
+      "title": "Neuer Eintrag"
+    },
+    "topic-update-dialog": {
+      "title": "Eintrag bearbeiten"
+    },
+    "view-style": "View style",
+    "gauge": {
+      "base-value": "Base value",
+      "color-steps": "Color steps",
+      "show-scale": "Show scale",
+      "show-value": "Show value"
+    }
+  },
+  "timetracking-manager": {
+    "page-title": "Timetracking Manager",
+    "create-entry-label": "Neuer Eintrag",
+    "user-label": "Mitarbeiter",
+    "date-label": "Datum",
+    "start-label": "Von",
+    "end-label": "Bis",
+    "dialog-title": "Zeiterfassungseintrag editieren",
+    "successes": {
+      "create": "Eintrag erzeugt",
+      "update": "Eintrag geändert",
+      "delete": "Eintrag gelöscht"
+    },
+    "errors": {
+      "time-frame": "Bitte Zeitraum überprüfen"
+    }
+  },
+  "imprint": {
+    "header": "Impressum",
+    "title": "Angaben gemäß § 5 TMG"
+  },
+  "shift-planning": {
+    "title": "Schichtplanung",
+    "nav-shiftplan-manager": "Schichtplan Manager",
+    "nav-shift-model-manager": "Schichtmodell Manager",
+    "nav-shift-manager": "Schicht Manager",
+    "nav-planning-unit-manager": "Planungseinheit Manager",
+    "nav-planning-unit-employee-manager": "Planungseinheit Mitarbeiter Manager",
+    "nav-my-shifts": "Meine Schichten",
+    "my-shifts": {
+      "title": "Meine Schichten",
+      "selector-planning-unit": "Planungseinheit"
+    },
+    "planning-unit-manager": {
+      "title": "Planungseinheit Manager",
+      "create": "Planungseinheit anlegen",
+      "visibility-invisible": "Unsichtbar",
+      "visibility-visible": "Sichtbar",
+      "visibility-visible-comment": "Sichtbar + Kommentare",
+      "visibility-detail": "Detailiert",
+      "visibility-detail-comment": "Detailiert + Kommentare",
+      "table": {
+        "name": "Name",
+        "business": "Geschäft",
+        "global": "Global",
+        "active": "Aktiv",
+        "team": "Team",
+        "modified": "Geändert",
+        "modified_by": "Geändert durch"
+      },
+      "editor": {
+        "new": "Planungseinheit anlegen",
+        "edit": "Planungseinheit bearbeiten",
+        "name": "Name",
+        "business":  "Geschäft",
+        "label-working-days": "Arbeitstage",
+        "label-visibility": "Sichtbarkeit",
+        "visibility-team": "Teamsichtbarkeit",
+        "active": "Aktiv",
+        "global": "Global",
+        "auto-publish": "Auto-Veröffentlichung",
+        "admin-resource": "Admin Ressource",
+        "planner-resource": "Planer Ressource",
+        "hoo-resource": "HoO Ressource",
+        "workercouncil-resource": "Betriebsrat Ressource",
+        "publisher-resource": "Veröffentlicher Ressource",
+        "delete-question": "Soll \"{{name}}\" wirklich gelöscht werden?",
+        "assign-employees": {
+          "title": "Mitarbeiter zuordnen",
+          "loading": "Lade Daten..."
+        }
+      }
+    },
+    "planning-unit-employee-manager": {
+      "title": "Zuordnungen",
+      "selector-planning-unit": "Planungseinheit",
+      "selector-reference-date": "Stichtag",
+      "col-name": "Name",
+      "col-assignments": "Zuordnungen",
+      "col-assignment-current": "Aktuell zugeordnet",
+      "col-category": "Kategorie",
+      "col-start": "Start",
+      "col-end": "Ende",
+      "no-delete": "Kann nur noch in der Länge geändert werden",
+      "editor": {
+        "title-new": "Neue Zuordnung",
+        "title-edit": "Zuordnung bearbeiten",
+        "label-employee": "Mitarbeiter",
+        "label-category": "Kategorie",
+        "label-from": "Von",
+        "label-to": "Bis",
+        "change-title": "Achtung",
+        "change-msg": "Durch Änderung des Zeitraums werden unter Umständen Schichtplaneinträge gelöscht.",
+        "delete-question": "Zuordnung wirklich löschen?"
+      }
+    },
+    "shift-plan-manager": {
+      "title": "Schichtplan Manager",
+      "delete-question": "Soll \"{{versionName}}\" wirklich gelöscht werden?"
+    },
+    "shift-model-manager": {
+      "title": "Schichtmodell Manager",
+      "name": "Name",
+      "description":"Beschreibung",
+      "active": "Aktiv",
+      "duration": "Dauer",
+      "dateFrom": "Gültig ab",
+      "editor": {
+        "title": "Schichtmodell Editor",
+        "delete-title": "Schichtmodell löschen",
+        "label-name": "Name",
+        "label-description": "Beschreibung",
+        "label-active": "Aktiv",
+        "delete-question": "Soll \"{{name}}\" wirklich gelöscht werden?"
+      }
+    },
+    "employee-assign-shiftmodels": {
+      "title": "Schichtmodelle zuordnen",
+      "employees": "Mitarbeiter"
+    },
+    "shiftmodel-assign-employees": {
+      "title": "Mitarbeiter zuordnen"
+    },
+    "shift-manager": {
+      "title": "Schicht Manager",
+      "tab-shifts": "Schichten",
+      "tab-categories": "Kategorien",
+      "editor": {
+        "title": "Schicht Editor",
+        "delete-title": "Schicht löschen",
+        "delete-question": "Soll \"{{name}}\" wirklich gelöscht werden?",
+        "label-name": "Name",
+        "label-name-en": "Name EN",
+        "label-name-short": "Kürzel",
+        "label-name-short-en": "Kürzel EN",
+        "label-start": "Start",
+        "label-end": "Ende",
+        "label-break": "Pause (Minuten)",
+        "label-duration": "Dauer",
+        "label-color": "Farbe",
+        "label-active": "Aktiv",
+        "label-present": "Präsent",
+        "label-plannable": "Planbar",
+        "label-global": "Global",
+        "label-productive": "Produktiv",
+        "label-category": "Kategorie",
+        "error-long-shift": "Eine Schicht darf nicht länger als 10 Stunden sein.",
+        "error-long-break": "Die Pause darf nicht länger als die Schicht sein.",
+        "error-shift-name": "Schicht-Name bereits vergeben",
+        "error-shift-short-name": "Schicht-Kürzel bereits vergeben"
+      }
+    },
+    "shift-category-manager": {
+      "editor": {
+        "title": "Kategorie Editor",
+        "label-order": "Reihenfolge"
+      }
+    },
+    "shift-planner": {
+      "title": "Schichtplaner",
+      "calendar-title": "Mitarbeiter",
+      "filter-category": "Kategorie",
+      "shift-overview": "Schichtübersicht",
+      "planned": "Geplant",
+      "working-day": "Werktag",
+      "label-legend": "Legende",
+      "publish": "Veröffentlicht",
+      "changes-title": "Achtung",
+      "changes-message": "Es gibt ungespeicherte Änderungen. Fortfahren?",
+      "change-published-plan-warning": "Achtung! Sie bearbeiten einen bereits veröffentlichten Schichtplan.",
+      "context-copy": "Kopieren",
+      "context-paste": "Einfügen",
+      "context-delete": "Löschen",
+      "context-details": "Details",
+      "editor": {
+        "edit-title": "Schichtplan",
+        "delete-title": "Schichtplan löschen",
+        "label-planning-unit": "Planungseinheit",
+        "label-version-name": "Versionsname",
+        "label-start": "Beginn",
+        "label-end": "Ende",
+        "choice": "Auswahl",
+        "autofill": "mit Schicht-Vorauswahl"
+      },
+      "entry-details-editor": {
+        "title": "Details",
+        "apply": "Anwenden",
+        "flags": "Markierungen",
+        "comment": "Kommentar"
+      }
+    }
+  },
+  "case-handling": {
+    "title": "Fallbearbeitung",
+    "cases": "Vorgänge",
+    "closed-cases": "erledigte Vorgänge",
+    "case-locked-title": "Fall gesperrt",
+    "case-locked": "Dieser Fall wird gegenwärtig bearbeitet. Bearbeiter:",
+    "due-date": "Fälligkeitsdatum",
+    "resubmission-date": "Wiedervorlagedatum",
+    "resubmission-time": "Wiedervorlagezeit",
+    "editing": "Bearbeitung",
+    "history": "Historie",
+    "result": "Ergebnis",
+    "no-detail-information": "keine Detailinformationen vorhanden",
+    "url": "URL",
+    "toastr": {
+      "timetracking-success": "Zeiterfassung gespeichert",
+      "timetracking-error": "Zeiterfasung konnte nicht gespeichert werden",
+      "case-success": "Fall gespeichert",
+      "case-error": "Fall konnte nicht gespeichert werden",
+      "query-missing" : "Konfigurationsfehler: Datenabfrage fehlt",
+      "update-query-missing": "Konfigurationsfehler: Keine Aktualisierungsabfrage, Speichern nicht möglich.",
+      "improper-status-handling" : "Konfigurationsfehler: Handhabung/Dialog ungültig"
+    }
+  },
+  "business-administration": {
+    "sales-order": "Projektnummer",
+    "title": "Business Administration",
+    "common": "Allgemein",
+    "contracts": "Verträge",
+    "side-contracts": "Mitgeltende Verträge",
+    "applicable-contracts": "Mitgeltende Verträge",
+    "nascent": "In Anbahnung",
+    "requirements": "Requirements",
+    "requirement": "Requirement",
+    "files": "Dateien",
+    "history": "Historie",
+    "add-business": "Business anlegen",
+    "add-contract": "Vertrag anlegen",
+    "contract-type": "Vertragstyp",
+    "conformance-testing" : "Konformitätsprüfung"
+  },
+  "service-administration": {
+    "title": "Service Administration",
+    "add-service": "Service anlegen",
+    "service-contract": "Servicevertrag"
+  },
+  "process-administration": {
+    "title": "Prozess Administration",
+    "datatype": "Datentyp",
+    "add-kpi": "Kategorie anlegen",
+    "category-name-de": "Kategoriename DE",
+    "category-name-en": "Kategoriename EN",
+    "upper-limit": "Oberer Grenzwert",
+    "lower-limit": "Unterer Grenzwert",
+    "avg-value":"Durchschnittswerte",
+    "sum-value": "Summenwerte",
+    "read-only": "Schreibgeschützt",
+    "add-process": "Prozess anlegen",
+    "select-user-skills": "Ausgewählte Benutzer",
+    "available-user-skills": "Verfügbare Benutzer"
+  },
+  "kpi-administration": {
+    "add-kpi": "Kategorie anlegen"
+  },
+  "change": {
+    "kind": "Art der Änderung",
+    "add-file": "Datei hinzugefügt",
+    "add-requirement": "Requirement hinzugefügt",
+    "add-master-requirement": "Master Requirement hinzugefügt",
+    "save-business-contract": "Vertrag geändert",
+    "linked-contract": "Vertrag verknüpft",
+    "link-contract": "Vertrag verknüpfen",
+    "link-master-requirement": "Master Requirement verknüpfen",
+    "link-requirement": "Requirement verknüpfen"
+  },
+  "master-requirement": {
+    "add-requirement": "Requirement anlegen",
+    "title": "Master Requirement",
+    "manage": "Master Requirement verwalten",
+    "add": "Master Requirement anlegen",
+    "norm": "Norm",
+    "norms": "Normen",
+    "area": "Bereich",
+    "areas": "Bereiche",
+    "norm-requirement": "Normanforderung",
+    "reference": "Referenzen",
+    "description-de": "Bezeichnung",
+    "description-en": "Bezeichnung EN",
+    "passage": "Textstelle",
+    "text-content": "Textinhalt",
+    "requirement-have-to-save-first": "Um Master Requirements hinzuzufügen, bitte zunächst das Requirement speichern.",
+    "requirement-base-data": "Requirement Stammdaten",
+    "edit-requirement-base-data": "Requirement Stammdaten verwalten",
+    "adequate-fuse-coverage": "Ausreichende Abdeckung"
+  },
+  "routing": {
+    "confirm-dialog": {
+      "edit-not-finish-title": "Änderungen noch nicht gespeichert",
+      "edit-not-finish": "Beim Verlassen der Seite werden die Änderungen verworfen. Möchten Sie die Seite verlassen und die Änderungen verwerfen?"
+    },
+    "read-only": "Schreibgeschützt"
+  },
+  "queue-administration": {
+    "title": "Queue Administration",
+    "name": "Name",
+    "process": "Prozess",
+    "countNew": "Neu",
+    "new-queue": "Neue Queue",
+    "save-order": "Reihenfolge speichern",
+    "description": "Beschreibung",
+    "priority": "Priorität",
+    "warning-message": "Bitte beachten sie, dass nach dem Deaktivieren dieser Queue, Agenten keine Möglichkeit mehr haben, die Fälle weiter zu bearbeiten. Die Fälle in dieser Queue werden nicht gelöscht und können weiter bearbeitet werden, sobald die Queue wieder aktiv ist.",
+    "delete-message-has-cases": "Sind sie sicher? Es sind derzeit noch {{caseCount }} Fälle zugewiesen.",
+    "delete-message-no-cases": "Sind sie Sicher? Die Queue kann gelöscht werden, es sind derzeit keine Fälle zugewiesen.",
+    "delete-queue-title": "Queue Löschen"
+  },
+  "cdc": {
+    "title": "Case Distribution Cockpit",
+    "unassigned": "nicht zugewiesen",
+    "states": {
+      "all": "Alle",
+      "new": "Neu",
+      "in-progress": "In Bearbeitung",
+      "done": "Erledigt"
+    },
+    "queue-properties": {
+      "name": "Name",
+      "countNew": "Neu",
+      "countInProgress": "In Bearbeitung",
+      "countDone": "Erledigt",
+      "description": "Beschreibung",
+      "priority": "Priorität",
+      "resource": "Resource",
+      "limitResource": "Resource",
+      "limitResourceName": "Resource",
+      "businessName": "Business",
+      "serviceName": "Service",
+      "processName": "Prozess",
+      "all": "Alle",
+      "new": "Neu",
+      "in-progress": "In Bearbeitung",
+      "done": "Erledigt"
+    }
+  }
+}
