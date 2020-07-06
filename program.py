@@ -23,17 +23,17 @@ def get_multi_assigned_values(myDict):
         if len(value)>1:
             print(key, value)
 
-with open('test.json') as json_file:
+with open('de.json') as json_file:
     data = json.load(json_file)
-    print("The data")
-    print(data)
-    print("---")
+    #print("The data")
+    #print(data)
+    #print("---")
     get_key_values(data, '')
-    print(myTranslations)
-    print("---")
+    #print(myTranslations)
+    #print("---")
     generate_flipped_dictionary(myTranslations)
-    print(myTranslationsFlipped)
-    print("---")
+    #print(myTranslationsFlipped)
+    #print("---")
     # print keys of flippped dict. witch have several entries in value array
     get_multi_assigned_values(myTranslationsFlipped)
     pass
