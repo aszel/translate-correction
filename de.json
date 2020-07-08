@@ -1,5 +1,6 @@
 {
   "global": {
+    "interval": "Intervall",
     "product-name": "arvato-now",
     "name": "Name",
     "key": "Schlüsselbezeichnung",
@@ -16,6 +17,7 @@
     "role": "Rolle",
     "roles": "Rollen",
     "active" : "Aktiv",
+    "inactive" : "Inaktiv",
     "case": "Vorgang",
     "site": "Standort",
     "sites": "Standorte",
@@ -44,6 +46,16 @@
     "select-categories": "Ausgewählte Kategorien",
     "basic-amount-categories": "Verfügbare Kategorien",
     "multiple-save-progress": "Fortschritt der Mehrfachspeicherung",
+    "remove": "Entfernen",
+    "flags": "Markierungen",
+    "planning-unit": "Planungseinheit",
+    "employee": "Mitarbeiter",
+    "planner": "Planer",
+    "name-en": "Name En",
+    "hint": "Hinweis",
+    "readonly": "Schreibschutz",
+    "sum": "Summe",
+    "average": "Durchschnitt",
     "menu": {
       "main": "Main",
       "menu": "Menü",
@@ -64,6 +76,7 @@
       "assign-user-role": "Rollen und Benutzer zuweisen",
       "user-manager": "Benutzer",
       "compliance":"Compliance",
+      "workplace": "Mein Arbeitsplatz",
       "news": {
         "editor": "Newsmanager"
       },
@@ -142,6 +155,7 @@
       "all": "Alle",
       "title": "Titel",
       "color": "Farbe",
+      "number": "Zahl",
       "take-color": "Farbe wählen",
       "icon": "Symbol",
       "select-icon": "Symbol wählen",
@@ -169,6 +183,17 @@
       "search": "Durchsuchen",
       "order-no": "Reihenfolge",
       "add" : "{{placeholder}} hinzufügen",
+      "set" : "{{placeholder}} eingeben",
+      "status-of" : "{{placeholder}} Status",
+      "assigned-of" : "Zugeordnete {{placeholder}}",
+      "select-placeholder" : "{{placeholder}} auswählen",
+      "start-date-of" : "Startdatum des {{placeholder}}",
+      "end-date-of" : "Enddatum des {{placeholder}}",
+      "link-placeholder" : "{{placeholder}} verlinken",
+      "link-display-text": "Angezeigter Text (optional)",
+      "link-internal": "Intern",
+      "link-external": "Extern",
+      "expanded": "Erweitert",
       "numbers" :{
         "first": "Erster",
         "second": "Zweiter"
@@ -239,6 +264,9 @@
       }
     },
     "date-time": {
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
       "second": "Sekunde",
       "minute": "Minute",
       "hour": "Stunde",
@@ -347,6 +375,8 @@
       "loading": "Daten werden geladen",
       "cancel-changes-title": "Änderungen verwerfen",
       "cancel-changes-message": "Wollen sie wirklich alle Änderungen verwerfen?",
+      "cancel-defaults-title": "Vorauswahl verwerfen",
+      "cancel-defaults-message": "Wollen sie wirklich alle Daten verwerfen?",
       "no-json": "Der eingegebene Text ist nicht nach dem JSON-Standard formatiert. Möchten Sie die Eingaben trotzdem übernehmen?",
       "no-html": "Der eingegebene Text ist nicht nach dem HTML-Standard formatiert. Möchten Sie die Eingaben trotzdem übernehmen?",
       "no-edit-permission": "Zum Editieren fehlen die entsprechenden Berechtigungen.",
@@ -389,6 +419,9 @@
       "REST": {
         "success": "Call {{title}} succeeded",
         "error": "Call {{title}} failed"
+      },
+      "info-box": {
+        "mass-edit-context": "Bitte entweder mit STRG + Linksklick einzelne Elemente auswählen oder mit STRG + Linksklick das erste Element und mit SHIFT + Linksklick das letzte Element auswählen, um eine größere Menge zu markieren."
       }
     },
     "search": {
@@ -428,6 +461,13 @@
     "site": "Standort",
     "processtype":"Prozess-Kategorien",
     "servicetype": "Service-Kategorie",
+    "kpitype": {
+      "title": "KPI-Kategorie",
+      "lower-threshold": "Minimum",
+      "upper-threshold": "Maximum",
+      "datatype": "Datentyp",
+      "basetype": "Stammkategorie"
+    },
     "role-type": "Kategorie",
     "role-level": "Level",
     "resource-type": "Kategorie",
@@ -435,7 +475,7 @@
     "roles":"Rollen",
     "resources":"Ressourcen",
     "assign_user_role": "Zuordnung von Benutzern und Rollen",
-    "selected-resource": "Ausgewählte Ressource: {{resourceName}}",
+    "selected-process": "Ausgewählter Prozess: {{resourceName}}",
     "multible_assign_user_role": "Mehrfachzuordnung von Benutzern und Rollen",
     "edit_user": "Bearbeitung der zugewiesenen Rollen von Benutzer",
     "edit_role_by_user": "Bearbeitung der zugewiesenen Benutzer einzelner Rollen",
@@ -494,11 +534,14 @@
         "8": ""
       }
     },
+    "details": {
+      "expand-all-popper": "Anzeige aller Details der Zeilen",
+      "collapse-all-popper": "Ausblender aller Details der Zeilen"
+    },
     "items-per-page": "Elemente pro Seite",
     "disable-inline-edit-button": "Editieren momentan nicht möglich, da ein Eintrag bereits editiert wird."
   },
   "login": {
-    "user": "Mitarbeiter",
     "login": "Anmelden",
     "welcome": "Willkommen auf arvato-now",
     "username": "Benutzername / RACF",
@@ -531,6 +574,7 @@
   },
   "buttonlabel": {
     "save": "Speichern",
+    "save-and-next": "Speichern >>",
     "back-without-save": "Zurück ohne Speichern",
     "resetAll": "Alles zurücksetzen",
     "undoneLastStep": "Rückgängig",
@@ -552,11 +596,10 @@
     "export-excel": "Exportieren als Excel-Datei",
     "export-csv-file": "Exportieren als CSV-Datei",
     "export-excel-file": "Exportieren als Excel-Datei",
-    "expand-all": "Alle Details anzeigen",
+    "expand-all": "Details anzeigen",
     "collapse-all": "Details ausblenden",
     "select-business": "Business bitte auswählen",
     "mass-editor": "Mehrfachänderung",
-    "group-assignment": "Gruppenzuweisung",
     "no-icon": "kein Symbol verwenden"
   },
   "dashboard": {
@@ -783,6 +826,7 @@
   "documentation": {
     "release_version": "Freigegebene Version",
     "documentation": "Dokumentation",
+    "documentation-in-product": "Dokumentation in arvato-now",
     "pinboard": "Pinnwand",
     "lastChange": "Letzte Änderung",
     "date": "Änderungsdatum",
@@ -792,7 +836,9 @@
     "summary": "Inhalt",
     "viewGroup": "Beschränkung auf folgende Gruppen",
     "metaData": "Seiteninformationen",
-    "info": "Über das Dokument"
+    "info": "Über das Dokument",
+    "area": "Confluence Bereich",
+    "page": "Confluence Seite"
   },
   "label": {
     "sort": "Sortieren",
@@ -951,7 +997,9 @@
       "process1": "Das Feld entspricht nicht den Vorgaben ({{regexp}}) für die erste Vorgangs-ID. Bitte die Eingabe überprüfen.",
       "process2": "Das Feld entspricht nicht den Vorgaben ({{regexp}}) für die zweite Vorgangs-ID. Bitte die Eingabe überprüfen.",
       "processResult": "Entweder 'Erledigt' oder 'Wiedervorlage' muß ausgewählt sein.",
-      "resubmission": "Das Wiedervorlagedatum muß in der Zukunft liegen."
+      "resubmission": "Das Wiedervorlagedatum muß in der Zukunft liegen.",
+      "counter": "Es ist nur eine maximale Anzahl von 9999 zulässig.",
+      "logic-violation": "Es ist ein logischer Fehler aufgetreten, zur Gewährleistung der Datenintegrität wird dieses Ergebnis nicht gespeichert. Bitte das Timetracking neu starten."
     },
     "server": {
       "error": {
@@ -966,7 +1014,10 @@
   },
   "production-plan": {
     "day-to-filter": "Tag auswählen",
+    "change-time-range": "Tag auswählen um Zeitfenster zu verschieben.",
     "title": "Produktionsplan",
+    "navigate-to-production-plan-popover": "Zum Produktionsplan",
+    "navigate-to-production-plan-manager-popover": "Zum Produktionsplan-Manager",
     "only-my-tasks": "nur meine Tasks",
     "process": "Prozess",
     "responsible": "Verantwortlicher",
@@ -1123,7 +1174,7 @@
     "title": "Menü verwalten",
     "save": "Speichern",
     "dashboard": "Dashboard",
-    "is-top-level": "Admin fav.",
+    "is-top-level": "Anzeige in der Menuzeile",
     "icon": "Icon"
   },
   "news-editor": {
@@ -1381,7 +1432,7 @@
       "description": "Bezeichnung",
       "variable-name": "Variablenname",
       "label": "Beschriftung",
-      "combobox": "Als Combobox",
+      "combobox": "Als Dropdown Menu",
       "comment": "Beschreibung",
       "options-provider": "Filter options provider",
       "option-name": "Name",
@@ -1392,8 +1443,9 @@
         "uncheck": "Remove default mark"
       },
       "selection": "Auswahl...",
-      "interval": "Intervall",
-      "static-filter": "Statischer Filter"
+      "static-filter": "Statischer Filter",
+      "hint": "Hinweis",
+      "mandatory": "Pflichtfeld"
     },
     "errors": {
       "exists": "Filter existiert bereits",
@@ -1435,6 +1487,10 @@
     }
   },
   "dashboard-manager": {
+    "show-dashboard": "Dashboard anzeigen",
+    "edit-dashboard": "Dashboard bearbeiten",
+    "show-as-tiles": "Als Kacheln anzeigen",
+    "show-as-list": "Als Liste anzeigen",
     "add-resource": "Neuer Eintrag",
     "dashboard-manager": "Dashboardmanager",
     "create-new": "Neues Dashboard",
@@ -1455,15 +1511,21 @@
     "column-by-column": "Spaltenweise",
     "page-size": "Elemente pro Seite",
     "excel-export": "Excel-Export",
+    "show-selection": "Show selection",
     "html-content": "HTML Inhalt",
     "filters": "Filter",
     "manage": "Verwalten",
+    "manage-columns": "Spalten verwalten",
     "navigation-columns": "Spalten zur Navigation",
-    "show-trend-line": "Zeige Trendline Skala",
-    "show-grid-lines": "Zeige Linien",
+    "show-trend-line": "Trendline Skala anzeigen",
+    "show-grid-lines": "Linien anzeigen",
     "chart-category-label": "Kategorie label",
-    "chart-values-label": "Values label",
-    "chart-trendline-label": "Trend line values label",
+    "chart-values-label": "Werte label",
+    "chart-trendline-label": "Trendlinewerte label",
+    "toast-error-title": "Error loading dashboard",
+    "add-widget": "Widget hinzufügen",
+    "dashboard-properties": "Dashboard-Eigenschaften",
+    "widget-properties": "Widget-Eigenschaften",
     "add-widget-type": {
       "chart": "Diagramm",
       "table": "Tabelle",
@@ -1488,8 +1550,8 @@
     "filters-selector-dialog": {
       "title": "Filter auswählen"
     },
-    "navigation-columns-dialog": {
-      "title": "Manage navigation columns",
+    "column-manager-dialog": {
+      "title": "Spalten verwalten",
       "BUTTON_LINK": "Button + link",
       "EMAIL_LINK": "Email + link",
       "ICON_LINK": "Icon + link",
@@ -1508,18 +1570,17 @@
     "topic-update-dialog": {
       "title": "Eintrag bearbeiten"
     },
-    "view-style": "View style",
+    "view-style": "Style anzeigen",
     "gauge": {
-      "base-value": "Base value",
-      "color-steps": "Color steps",
-      "show-scale": "Show scale",
-      "show-value": "Show value"
+      "base-value": "Basiswert",
+      "color-steps": "Farbschritte",
+      "show-scale": "Skala anzeigen",
+      "show-value": "Wert anzeigen"
     }
   },
   "timetracking-manager": {
     "page-title": "Timetracking Manager",
     "create-entry-label": "Neuer Eintrag",
-    "user-label": "Mitarbeiter",
     "date-label": "Datum",
     "start-label": "Von",
     "end-label": "Bis",
@@ -1546,8 +1607,7 @@
     "nav-planning-unit-employee-manager": "Planungseinheit Mitarbeiter Manager",
     "nav-my-shifts": "Meine Schichten",
     "my-shifts": {
-      "title": "Meine Schichten",
-      "selector-planning-unit": "Planungseinheit"
+      "title": "Meine Schichten"
     },
     "planning-unit-manager": {
       "title": "Planungseinheit Manager",
@@ -1572,8 +1632,8 @@
         "name": "Name",
         "business":  "Geschäft",
         "label-working-days": "Arbeitstage",
-        "label-visibility": "Sichtbarkeit",
         "visibility-team": "Teamsichtbarkeit",
+        "show-comment": "Zeige Kommentare",
         "active": "Aktiv",
         "global": "Global",
         "auto-publish": "Auto-Veröffentlichung",
@@ -1586,12 +1646,14 @@
         "assign-employees": {
           "title": "Mitarbeiter zuordnen",
           "loading": "Lade Daten..."
-        }
+        },
+        "flag-active": "Aktiv",
+        "flag-show-employee": "Mitarbeitern anzeigen",
+        "flag-show-team": "Im Team anzeigen"
       }
     },
     "planning-unit-employee-manager": {
       "title": "Zuordnungen",
-      "selector-planning-unit": "Planungseinheit",
       "selector-reference-date": "Stichtag",
       "col-name": "Name",
       "col-assignments": "Zuordnungen",
@@ -1610,6 +1672,11 @@
         "change-title": "Achtung",
         "change-msg": "Durch Änderung des Zeitraums werden unter Umständen Schichtplaneinträge gelöscht.",
         "delete-question": "Zuordnung wirklich löschen?"
+      }
+    },
+    "planning-unit-flag-manager": {
+      "editor": {
+        "title": "Markierung bearbeiten"
       }
     },
     "shift-plan-manager": {
@@ -1686,6 +1753,7 @@
       "changes-title": "Achtung",
       "changes-message": "Es gibt ungespeicherte Änderungen. Fortfahren?",
       "change-published-plan-warning": "Achtung! Sie bearbeiten einen bereits veröffentlichten Schichtplan.",
+      "unplanned-shifts-warning": "Achtung, bei einem oder mehreren Mitarbeitern wurde keine An- oder Abwesenheitsschicht hinterlegt. Bitte bei allen Mitarbeitern entsprechende Schichten hinterlegen.",
       "context-copy": "Kopieren",
       "context-paste": "Einfügen",
       "context-delete": "Löschen",
@@ -1693,7 +1761,6 @@
       "editor": {
         "edit-title": "Schichtplan",
         "delete-title": "Schichtplan löschen",
-        "label-planning-unit": "Planungseinheit",
         "label-version-name": "Versionsname",
         "label-start": "Beginn",
         "label-end": "Ende",
@@ -1703,9 +1770,12 @@
       "entry-details-editor": {
         "title": "Details",
         "apply": "Anwenden",
-        "flags": "Markierungen",
         "comment": "Kommentar"
       }
+    },
+    "shift-plan-switch": {
+      "prev-shiftplan": "Voriger Schichtplan",
+      "next-shiftplan": "Nächster Schichtplan"
     }
   },
   "case-handling": {
@@ -1714,6 +1784,8 @@
     "closed-cases": "erledigte Vorgänge",
     "case-locked-title": "Fall gesperrt",
     "case-locked": "Dieser Fall wird gegenwärtig bearbeitet. Bearbeiter:",
+    "no-new-case-title": "Kein neuer Fall vorhanden",
+    "no-new-case-message": "Leider konnte kein neuer Fall geladen werden.",
     "due-date": "Fälligkeitsdatum",
     "resubmission-date": "Wiedervorlagedatum",
     "resubmission-time": "Wiedervorlagezeit",
@@ -1730,6 +1802,9 @@
       "query-missing" : "Konfigurationsfehler: Datenabfrage fehlt",
       "update-query-missing": "Konfigurationsfehler: Keine Aktualisierungsabfrage, Speichern nicht möglich.",
       "improper-status-handling" : "Konfigurationsfehler: Handhabung/Dialog ungültig"
+    },
+    "button": {
+      "refresh": "Fälle aktualisieren"
     }
   },
   "business-administration": {
@@ -1737,6 +1812,8 @@
     "title": "Business Administration",
     "common": "Allgemein",
     "contracts": "Verträge",
+    "contract": "Vertrag",
+    "contract_gerund": "Vertrages",
     "side-contracts": "Mitgeltende Verträge",
     "applicable-contracts": "Mitgeltende Verträge",
     "nascent": "In Anbahnung",
