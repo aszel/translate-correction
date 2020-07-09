@@ -1,0 +1,5 @@
+{
+  "Name": ["global.name", "filter-manager.editor.option-name"],
+  "Startseite": ["global.landing-page", "user-settings.landing-page.title"],
+  "Business": ["global.business", "global.menu.overall.dataMaintenance.baseData.mandant"]
+}
