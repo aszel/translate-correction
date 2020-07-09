@@ -1,8 +1,8 @@
 import json
 import os
 
-inputFile = "output/duplicates.test.json"
-#inputFile = "output/duplicates.de.json"
+#inputFile = "output/duplicates.test.json"
+inputFile = "output/duplicates.de.json"
 outputFile = "output/inter-language-duplicates.json"
 
 myLanguages = ["en", "pl"]
