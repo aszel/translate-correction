@@ -1,4 +1,11 @@
 import json
+import os
+
+currentLanguage = "de"
+#currentLanguage = "en"
+#currentLanguage = "pl"
+inputFile = "input/" + currentLanguage + ".json"
+outputFile = "output/duplicates." + currentLanguage + ".txt"
 
 myTranslations = {}
 myTranslationsFlipped = {}
@@ -21,9 +28,9 @@ def generate_flipped_dictionary(myDict):
             myTranslationsFlipped[value].append(key)
 
 def get_multi_assigned_values(myDict):
-    f = open("output/duplicates.de.txt", "a")
-    #f = open("output/duplicates.en.txt", "a")
-    #f = open("output/duplicates.pl.txt", "a")
+    if os.path.exists(outputFile):
+        os.remove(outputFile)
+    f = open(outputFile, "a")
     duplicates = 0
     items_with_duplicates = 0;
     for key, values in myDict.items():
