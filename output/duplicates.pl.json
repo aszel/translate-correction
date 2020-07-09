@@ -136,5 +136,5 @@
   "new": ["cdc.states.new", "cdc.queue-properties.countNew", "cdc.queue-properties.new"],
   "in progress": ["cdc.states.in-progress", "cdc.queue-properties.countInProgress", "cdc.queue-properties.in-progress"],
   "done": ["cdc.states.done", "cdc.queue-properties.countDone", "cdc.queue-properties.done"],
-  "resource": ["cdc.queue-properties.resource", "cdc.queue-properties.limitResource", "cdc.queue-properties.limitResourceName"],
+  "resource": ["cdc.queue-properties.resource", "cdc.queue-properties.limitResource", "cdc.queue-properties.limitResourceName"]
 }

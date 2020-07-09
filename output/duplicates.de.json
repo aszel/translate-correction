@@ -167,5 +167,5 @@
   "Schreibgeschützt": ["process-administration.read-only", "routing.read-only"],
   "Priorität": ["queue-administration.priority", "cdc.queue-properties.priority"],
   "In Bearbeitung": ["cdc.states.in-progress", "cdc.queue-properties.countInProgress", "cdc.queue-properties.in-progress"],
-  "Resource": ["cdc.queue-properties.resource", "cdc.queue-properties.limitResource", "cdc.queue-properties.limitResourceName"],
+  "Resource": ["cdc.queue-properties.resource", "cdc.queue-properties.limitResource", "cdc.queue-properties.limitResourceName"]
 }
