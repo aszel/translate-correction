@@ -21,7 +21,9 @@ def generate_flipped_dictionary(myDict):
             myTranslationsFlipped[value].append(key)
 
 def get_multi_assigned_values(myDict):
-    f = open("duplicates.de.txt", "a")
+    f = open("output/duplicates.de.txt", "a")
+    #f = open("output/duplicates.en.txt", "a")
+    #f = open("output/duplicates.pl.txt", "a")
     duplicates = 0
     items_with_duplicates = 0;
     for key, values in myDict.items():
@@ -35,17 +37,11 @@ def get_multi_assigned_values(myDict):
     print("avg duplicates: ", avg_duplicates)
     f.close()
 
-with open('de.json') as json_file:
+with open('input/de.json') as json_file:
+#with open('input/en.json') as json_file:
+#with open('input/pl.json') as json_file:
     data = json.load(json_file)
-    #print("The data")
-    #print(data)
-    #print("---")
     get_key_values(data, '')
-    #print(myTranslations)
-    #print("---")
     generate_flipped_dictionary(myTranslations)
-    #print(myTranslationsFlipped)
-    #print("---")
-    # print keys of flippped dict. witch have several entries in value array
     get_multi_assigned_values(myTranslationsFlipped)
     pass
