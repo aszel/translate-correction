@@ -1,6 +1,11 @@
 import json
 import os
 
+# Script reads json file and writes
+# all keys which hold duplicate values to an output file
+# example:
+#  duplicatedValue: [global.trivial.key.foo, global.trivial.key.bar]
+#
 currentLanguage = "de"
 #currentLanguage = "en"
 #currentLanguage = "pl"
