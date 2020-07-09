@@ -40,13 +40,10 @@ def get_multi_assigned_values(myDict):
             my_values_string = ';'.join(values)
             f.write(key + ':' + '['+ my_values_string + ']\n')
     avg_duplicates = duplicates / items_with_duplicates
-    print("duplicates: ", duplicates)
-    print("avg duplicates: ", avg_duplicates)
+    print("Duplicates: ", duplicates)
     f.close()
 
-with open('input/de.json') as json_file:
-#with open('input/en.json') as json_file:
-#with open('input/pl.json') as json_file:
+with open(inputFile) as json_file:
     data = json.load(json_file)
     get_key_values(data, '')
     generate_flipped_dictionary(myTranslations)
