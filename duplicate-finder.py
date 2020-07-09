@@ -10,7 +10,7 @@ currentLanguage = "de"
 #currentLanguage = "en"
 #currentLanguage = "pl"
 inputFile = "input/" + currentLanguage + ".json"
-outputFile = "output/duplicates." + currentLanguage + ".txt"
+outputFile = "output/duplicates." + currentLanguage + ".json"
 
 myTranslations = {}
 myTranslationsFlipped = {}
@@ -42,8 +42,8 @@ def get_multi_assigned_values(myDict):
         if len(values)>1:
             items_with_duplicates += 1
             duplicates += len(values)
-            my_values_string = ';'.join(values)
-            f.write(key + ':' + '['+ my_values_string + ']\n')
+            my_values_string = '","'.join(values)
+            f.write('"' + key + '"' + ':' + '["'+ my_values_string + '"],\n')
     avg_duplicates = duplicates / items_with_duplicates
     print("Duplicates: ", duplicates)
     f.close()
