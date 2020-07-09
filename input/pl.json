@@ -1,0 +1,1933 @@
+{
+  "global": {
+    "interval": "Interval",
+    "product-name": "arvato-now",
+    "name": "Name",
+    "key": "Key",
+    "client": "Organisation",
+    "landing-page": "Landing page",
+    "business": "Business",
+    "businesses": "Businesses",
+    "service": "Service",
+    "services": "Services",
+    "process": "Process",
+    "processes": "Processes",
+    "select-processes": "Select Processes:",
+    "select-roles": "Select Roles:",
+    "role": "Role",
+    "roles": "Roles",
+    "active": "Aktywna",
+    "inactive" : "Inactive",
+    "case": "Case",
+    "site": "Lokalizacja",
+    "sites": "Lokalizacje",
+    "category": "Category",
+    "category-id": "Category ID",
+    "comment": "Comment",
+    "elements": "Elements",
+    "resource": "Resource",
+    "created-by": "Created by",
+    "created": "Created",
+    "modified": "Modified",
+    "modified-by": "Modified by",
+    "last_modified": "Last modified",
+    "timestamp": "Timestamp",
+    "by": "by",
+    "status": "Status",
+    "outdated-value": "Outdated value",
+    "product": "Product",
+    "products": "Products",
+    "task": "Task",
+    "assignee": "Reviser",
+    "resubmission": "Resubmission",
+    "email": "e-mail",
+    "mandatory-field": "Required field",
+    "contact": "Contact",
+    "select-categories": "Select categories",
+    "basic-amount-categories": "Basic amount categories",
+    "multiple-save-progress": "Progress of multiple saving",
+    "remove": "Remove",
+    "flags": "Flags",
+    "planning-unit": "Planning unit",
+    "employee": "Employee",
+    "planner": "Planer",
+    "name-en": "Name En",
+    "hint": "Hint",
+    "readonly": "Read only",
+    "sum": "Sum",
+    "average": "Average",
+    "menu": {
+      "main": "Główny",
+      "menu": "Menu",
+      "timetracking": "Time tracking",
+      "timetracking.add": "Time tracking",
+      "timetracking.edit": "Edit time tracking",
+      "timetracking.report.tt": "report: own values",
+      "timetracking.raw-data": "timetracking raw data",
+      "productionplan": "Plan produkcji",
+      "productionplan.productionplan": "Plan produkcji",
+      "productionplan.edit-productionplan": "Edytuj plan produkcji",
+      "productionplan-manager": "Edytuj plan produkcji",
+      "base-data-administration": "Base data administration",
+      "base-data-billing-information": "Billing information",
+      "add-base-data-billing-information-and-employment-level": "Add billing information and employee level",
+      "rbac-entity": "Edit roles and resources",
+      "rbac-assign": "RBAC assign",
+      "assign-user-role": "Assign roles with users",
+      "user-manager": "User",
+      "compliance":"Compliance",
+      "workplace": "Moje miejsce pracy",
+      "news": {
+        "editor": "News manager"
+      },
+      "checklist-manager": "Checklist Manager",
+      "pinboard": "Pin board",
+      "processDocumentation": "Process documentation",
+      "documentation": "Process documentation",
+      "profile": "account",
+      "overall": {
+        "title": "overall",
+        "cost-centre-external-work": "Cost centre external work",
+        "my-resources": "My resources",
+        "dataMaintenance": {
+          "title": "Data maintenance",
+          "baseData": {
+            "title": "Base data",
+            "employee": "Employee",
+            "mandant": "Business"
+          }
+        },
+        "teams-supervisors": "Teams and supervisor",
+        "sample": {
+          "title": "Quality check",
+          "processing": "Processing",
+          "error-frequency": "Error frequency",
+          "status-evaluation": "Status and evaluation",
+          "monthly-overview": "Monthly overview",
+          "dispute-management": "Dispute Management"
+        },
+        "technical-environment": "Technical environment"
+      },
+      "administration": "Administration",
+      "filter-editor": "Filter manager",
+      "menu-editor": "Menu manager",
+      "dashboard-manager": "Dashboard manager",
+      "report-manager": "Query manager",
+      "kpi": {
+        "input": "kpi processing"
+      },
+      "file_upload": "file upload",
+      "dashboards": "reporting",
+      "navigation-dashboard": "dashboards",
+      "reporting": {
+        "tasks": "tasks",
+        "samples-timeline": "samples monthly overview",
+        "samples-error-frequency": "samples error frequency",
+        "samples-overview": "sample evaluation and status",
+        "quality-title": "qualiy",
+        "quality-team": "quality of team",
+        "quality-maturity": "maturity of quality assurance",
+        "quality-own": "my quality",
+        "productivity-title": "productivity",
+        "productivity-distribution-team": "distribution of unproductive time in team",
+        "productivity-own": "my productivity",
+        "or-presence": "presence",
+        "or-status-ics": "status ics-controls",
+        "productivity-team": "productivity of team",
+        "performance-title": "performance",
+        "performance-dashboard": "process performance"
+      },
+      "logout": "Wyloguj się",
+      "favorites": {
+        "favorites": "Favourites",
+        "add": "Add to favourites",
+        "remove": "Remove from favourites"
+      }
+    },
+    "footer": {
+      "imprint": "O stronie",
+      "edit-imprint": "Edit imprint",
+      "report-issue": "Feedback"
+    },
+    "trivial": {
+      "yes": "Yes",
+      "no": "No",
+      "all": "Wszystko",
+      "title": "Title",
+      "color": "Color",
+      "number": "number",
+      "take-color": "Select color",
+      "icon": "Icon",
+      "select-icon": "Select icon",
+      "print": "Print",
+      "download": "Download",
+      "general": "General",
+      "equal": "Equal",
+      "contains": "Contains",
+      "does-not-contain": "Does not contain",
+      "end-with": "Ends with",
+      "starts-With": "Begins with",
+      "to": "to",
+      "select": "Select",
+      "assign": "Assign",
+      "assign-of":"Assign of:",
+      "detach": "Detach",
+      "internal": "internal",
+      "take-selection": "Set selection",
+      "current-selection": "Current selection",
+      "selection": "Selection",
+      "settings-of": "Settings of",
+      "start-copy": "Copy",
+      "copy-values-to": "Copy values to:",
+      "external": "external",
+      "order-no": "Order No",
+      "search": "Search",
+      "add" : "Add {{placeholder}}",
+      "set" : "Set {{placeholder}}",
+      "status-of" : "{{placeholder}} Status",
+      "assigned-of": "Assigned {{placeholder}}",
+      "select-placeholder" : "Selected {{placeholder}}",
+      "start-date-of" : "Start date of {{placeholder}}",
+      "end-date-of" : "End date of {{placeholder}}",
+      "link-placeholder" : "Link {{placeholder}}",
+      "link-display-text": "Displayed text (optional)",
+      "link-internal": "Internal",
+      "link-external": "External",
+      "expanded": "Expanded",
+      "numbers" :{
+        "first": "First",
+        "second": "Second"
+      }
+    },
+    "user": {
+      "user": "User",
+      "select-role-for-a-user-group": "Select a role to receive all user, that has this role and assign {{placeholder}}",
+      "assign-selected-role": "the selected role:",
+      "assign-selected-roles": "the selected roles:",
+      "assign-selected-process": "the selected process:",
+      "assign-selected-processes": "the selected processes:",
+      "assign-to-selected-group": "The selected users have already been assigned the desired settings.",
+      "select-ref-user" :  "No reference user is selected. By right click can be selected a user as reference user.",
+      "no-active-user-selected": "No user is selected.",
+      "is-select-ref-user" : "Reference user is selected: ",
+      "select-ref-role" :  "No reference role is selected. By right click can be selected a role with them resource.",
+      "is-select-ref-role" : "Reference role is selected: ",
+      "ref-user-pre-text": "Use the values of ",
+      "ref-user-post-text": " as a template.",
+      "edit-ref": "Edit",
+      "ref-value": "Reference values",
+      "missing-values": "Add missing {{placeholder}}",
+      "identical-values": "Take identical {{placeholder}}",
+      "template-to-copy": "Template to be copied values",
+      "login": "RACF",
+      "roles": "Roles",
+      "only-elements": "Just my {{placeholder}}",
+      "contract-details": "Contract details",
+      "base-data": "Basedata",
+      "base-data-edit": "Edit base data",
+      "management": "User management",
+      "create-user": "Create a new user ",
+      "first-name": "Firstname",
+      "last-name": "Lastname",
+      "personal-number": "Personal number",
+      "supervisor": "Supervisor",
+      "employment-type": "Employmenttype",
+      "assign-skills": "Assign processes",
+      "assign-roles": "Assign Roles",
+      "assign-user-role": "Assign users with roles",
+      "change-direction-of-assignment": "Switch the assignment",
+      "selected-process": "Selected process: {{resourceName}}",
+      "assign-role-resource": "Assign roles with resources",
+      "cost-centre": "Costcentre",
+      "take-current-cost-centre": "Select current costcentre",
+      "cost-centre-contract": "Costcentre / Contract details",
+      "business-supervisor": "Supervisor of business",
+      "business-supervisor-message": "Attention, User is supervisor of the following businesses:",
+      "service-supervisor": "Supervisor of service",
+      "service-supervisor-message": "Attention, User is supervisor of the following services:",
+      "setting-supervisor": "Setting supervisor",
+      "company-exit": "Leaver date",
+      "company-entry": "Employment date",
+      "leaver-category": "Finish category",
+      "leaver-reason": "Reason for discharge",
+      "discharge": "Discharge",
+      "working-hours": "Workinghours per day",
+      "leaver-reasons": {
+        "unknown": "Unknown",
+        "mutually-agreed": "Cancellation - mutually agreed",
+        "not-specified": "Cancellation - not specified",
+        "external": "extern co-worker"
+      },
+      "employment-types": {
+        "temp-worker": "Temp worker",
+        "undated": "Undated",
+        "temporary": "Temporary",
+        "other": "Other"
+      }
+    },
+    "date-time": {
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "second": "Second",
+      "minute": "Minute",
+      "hour": "Hour",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "to": "To",
+      "from": "From",
+      "before": "Before",
+      "after": "After",
+      "at": "at",
+      "last-changed": "Changed on",
+      "calendar": {
+        "week-days": {
+          "monday": "Mo",
+          "monday-long": "Monday",
+          "tuesday": "Tu",
+          "tuesday-long": "Tuesday",
+          "wednesday": "We",
+          "wednesday-long": "Wednesday",
+          "thursday": "Th",
+          "thursday-long": "Thursday",
+          "friday": "Fr",
+          "friday-long": "Friday",
+          "saturday": "Sa",
+          "saturday-long": "Saturday",
+          "sunday": "Su",
+          "sunday-long": "Sunday",
+          "holiday": "Hd",
+          "holiday-long": "Holiday"
+        },
+        "as-local-month": {
+          "jan": "Jan",
+          "jan-long": "January",
+          "feb": "Feb",
+          "feb-long": "February",
+          "mar": "Mar",
+          "mar-long": "March",
+          "apr": "Apr",
+          "apr-long": "April",
+          "may": "May",
+          "may-long": "May",
+          "jun": "Jun",
+          "jun-long": "June",
+          "jul": "Jul",
+          "jul-long": "July",
+          "aug": "Aug",
+          "aug-long": "August",
+          "sep": "Sep",
+          "sep-long": "September",
+          "oct": "Oct",
+          "oct-long": "October",
+          "nov": "Nov",
+          "nov-long": "November",
+          "dec": "Dec",
+          "dec-long": "December"
+        }
+      }
+    },
+    "date-picker-lable": {
+      "upSecondLabel": "Add a second",
+      "downSecondLabel": "Minus a second",
+      "upMinuteLabel": "Add a minute",
+      "downMinuteLabel": "Minus a minute",
+      "upHourLabel": "Add a hour",
+      "downHourLabel": "Minus a hour",
+      "prevMonthLabel": "Previous month",
+      "nextMonthLabel": "Next month",
+      "prevYearLabel": "Previous year",
+      "nextYearLabel": "Next year",
+      "prevMultiYearLabel": "Previous 21 years",
+      "nextMultiYearLabel": "Next 21 years",
+      "switchToMonthViewLabel": "Change to month view",
+      "switchToMultiYearViewLabel": "month and year",
+      "hour12AMLabel": "AM",
+      "hour12PMLabel": "PM"
+    },
+    "date": {
+      "date": "Date",
+      "to-date": "to",
+      "from-date": "from",
+      "before-date": "before",
+      "after-date": "after",
+      "at": "at",
+      "create-date": "Creation Date",
+      "termination-date": "Termination date",
+      "commencement-date": "Commencement date",
+      "expiration-date": "Expiration date"
+    },
+    "table": {
+      "no-data": "No data"
+    },
+    "area": {
+      "country": "Country",
+      "region": "Region",
+      "state": "State"
+    },
+    "messages": {
+      "duplicate-data": "The entry already exists and therefore has to be changed. Please enter a unique identifier.",
+      "noDataAvailable": "brak dostępnych danych",
+      "notCompleted": "some inputs are missing",
+      "delete": "Data will be deleted",
+      "save": "Save all new values?",
+      "attention": "hint",
+      "loading": "Loading data",
+      "cancel-changes-title": "Discard changes",
+      "cancel-changes-message": "Are you sure you want to discard all changes?",
+      "cancel-defaults-title": "Discard preselection",
+      "cancel-defaults-message": "Are you sure you want to discard all values?",
+      "no-json": "No json-format. Should the input be saved anyway?",
+      "no-html": "No html-format. Should the input be saved anyway?",
+      "no-edit-permission": "The corresponding authorizations for editing are missing.",
+      "notifications": {
+      },
+      "toastr": {
+        "access-denied": "Access denied",
+        "not-allowed-create-task": "Missing right to edit task.",
+        "save-query-success": "Zapytanie jest zapisywane",
+        "generate-dates": "Generate dates",
+        "generate-dates-error": "Error while generate dates.",
+        "save-success": "skutecznie zapisane",
+        "save-success-turnus": "cycle successfully saved",
+        "save-success-tasktype": "tasktype successfully saved",
+        "save-success-costcentre": "costcentre successfully saved",
+        "save-success-password": "password successfully saved",
+        "save-success-basedata": "basedata successfully saved",
+        "save-success-role": "roles successfully saved",
+        "save-success-process": "process successfully saved",
+        "loading-error": "error while loading",
+        "save-error": "error while saving",
+        "update-rejected": "Abbort, because of an equal task. See id: ",
+        "save-denied": "Abbort, because of an equal task. See id: ",
+        "save-error-occurred": "During saving process a error occured. Some data could be not save correctly.",
+        "new-rejected": "inactive element would not be saved",
+        "not-allowed": "nie masz dostępu do tej strony",
+        "denied-confluence-page": "Wybrana strona jest zablokowana.",
+        "download-confluence-page-attachments": "Możesz pobrać plik w Załącznikach do danych",
+        "delete-success": "delete success",
+        "delete-denied": "while deleting, an error occured",
+        "send-password-generation-email": "To set a password, a Email send to {{email}}.",
+        "send-password-generation-email-error-occured": "Error occured by sending email for set new password.",
+        "incorrect-email": "Incorrect email",
+        "create-checklist-success": "Checklist successfully created",
+        "create-checklist-error": "Error when creating the checklist",
+        "mandatory-fields-required": "Please fill up all mandatory fields",
+        "missing-permission": "Missing permission: \"{{permissionName}}\".",
+        "search-available-process": "An error occurred while looking up the process."
+      },
+      "REST": {
+        "success": "Call {{title}} succeeded",
+        "error": "Call {{title}} failed"
+      },
+      "info-box": {
+        "mass-edit-context": "Please either select individual elements with CTRL + left click or select the first element with CTRL + left click and select the last element with SHIFT + left click to select a larger quantity."
+      }
+    },
+    "search": {
+      "placeholder": "Search...",
+      "min-chars": "type at least 3 characters to search",
+      "not-found": "nothing found"
+    },
+    "text": {
+      "headline": "Headline",
+      "address": "Address"
+    },
+    "organization": {
+      "managing-directors": "Managing directors",
+      "data-protection-officer": "Data protection officer",
+      "commercial-register": "Commercialregister",
+      "disclaimer": "Disclaimer"
+    },
+    "keyboard": {
+      "caps-lock-is-on": "Caps lock is on."
+    },
+    "validation": {
+      "not-valid": "Not valid.",
+      "not-valid-personal-number": "Personal number is not valid. Please change entry.",
+      "not-valid-login": "RACF is not valid. Please change entry."
+    }
+  },
+  "corporate-management" : {
+    "employee-level": "Employee level",
+    "holiday-setting": "Holiday setting",
+    "imprint": "Imprint",
+    "product-properties": "Product properties",
+    "base-role-resource": "Base data for Roles and Resources",
+    "role-level-key": "Role level key",
+    "role-category-key": "Role category key",
+    "site-key": "Site key",
+    "business-key": "Business key",
+    "site":"Site",
+    "processtype":"Process Categories",
+    "servicetype":"Service Category",
+    "kpitype": {
+      "title": "KPI Categories",
+      "lower-threshold": "Minimum",
+      "upper-threshold": "Maximum",
+      "datatype": "Data type",
+      "basetype": "Base type"
+    },
+    "role-type":"Roles Category",
+    "role-level":"Level",
+    "resource-type":"Resource Category",
+    "resource-subtype":"Resource Subcategory",
+    "roles":"Roles",
+    "resources":"Resources",
+    "assign_user_role": "Assign users and roles",
+    "multible_assign_user_role": "Multiple assign of users and roles",
+    "edit_user": "Single processing roles to user",
+    "edit_role_by_user": "Single processing user to role",
+    "edit_role_by_resource": "Single processing resource to role",
+    "edit_resource": "Single processing role to resource",
+    "assign_role_resource": "Assign roles and resources",
+    "assign_role_user": "Assign roles and user",
+    "multible_role_resource": "Multiple assign of roles and resources",
+    "job-title": "Job title",
+    "contract-term": "Contract term",
+    "assign": "Assign changes",
+    "remove-allocation": "Remove allocation",
+    "save-single-processing": "Save single processing",
+    "user-employment-type": "Type of employment",
+    "user-employment-types": "Types of employment",
+    "confirm-to-save-changes": "Save changes:",
+    "roles-get-resources": "Assign roles resources",
+    "roles-get-resources-message": "Do you really want assign the roles this resources?",
+    "resources-get-roles": "Assign resources roles",
+    "resources-get-roles-message": "Do you really want assign the resources this roles?",
+    "user-to-roles": "Assign users the roles",
+    "user-to-roles-message": "Do you really want assign the roles this users?",
+    "user-get-roles": "Assign roles the user",
+    "user-get-roles-message": "Do you really want assign the users this roles?"
+  },
+  "table": {
+    "cell": {
+      "dashboard-type": {
+        "APPLICATION_MENU": "Application",
+        "DASHBOARD": "Dashboard",
+        "NODE": "Menu group",
+        "CONFLUENCE": "Confluence",
+        "HREF": "Link",
+        "": ""
+      },
+      "task-admin": {
+        "old": "Old date",
+        "new": "New date",
+        "O": "Open",
+        "R": "Review",
+        "REVIEW": "Review",
+        "X": "Close",
+        "OPEN": "Open",
+        "NONE": "None",
+        "REMOVE": "Remove",
+        "both": "Date of old cycle and new one",
+        "": "",
+        "0": "Sunday",
+        "1": "Monday",
+        "2": "Tuesday",
+        "3": "Wednesday",
+        "4": "Thursday",
+        "5": "Friday",
+        "6": "Saturday",
+        "7": "Sunday",
+        "8": ""
+      }
+    },
+    "details": {
+      "expand-all-popper": "Expand all rows with detail information",
+      "collapse-all-popper": "Collapse all detail information of the rows"
+    },
+    "items-per-page": "Items per page",
+    "disable-inline-edit-button": "Editing is currently not possible, because an entry is already edited."
+  },
+  "login": {
+    "login": "Zaloguj się",
+    "welcome": "Witamy arvato-now",
+    "username": "Twoja nazwa użytkownika / Twój RACF",
+    "password": "Twoje hasło",
+    "password-confirmation": "Confirm password",
+    "cant-access": "Can't access your account?",
+    "password-forgotten": "Forgot password?",
+    "login-error": "Upewnij się, że wpisane przez Ciebie dane są poprawne i spróbuj ponownie.",
+    "locked": "Account locked",
+    "account-locked": "Account locked. Please click \"Forgot password?\" to set a new password and unlock your account.",
+    "password-reset-error": "This link is no longer valid. Please request a new password reset link. You will be redirected in a few seconds.",
+    "password-guideline": "* The password must contain at least one upper-/lowercase character and one digit. It has to be 8 signs or more",
+    "weak-password": "The password does not comply with our business guideline",
+    "account-expired": "Your account is expired. Please contact your competent contact person.",
+    "validity-until": "validity of the account until"
+  },
+  "remind-password": {
+    "title": "Can't access your account?",
+    "reset": "Reset your password",
+    "back": "Back to login",
+    "success-msg": "If the username exists you will shortly receive an e-mail with instructions to reset your password."
+  },
+  "reset-password": {
+    "generate": "Generate password and send",
+    "new-password": "New password",
+    "new-password-repeat": "Repeat password",
+    "set-new": "Set new password",
+    "back": "Back to login",
+    "success-msg": "Your password is changed. You can now login with your new password"
+  },
+  "buttonlabel": {
+    "save": "Zapisz",
+    "save-and-next": "Zapisz >>",
+    "back-without-save": "Back without save",
+    "resetAll": "Reset all",
+    "undoneLastStep": "Undone last step",
+    "delete": "Delete",
+    "invest": "Invest",
+    "confirm-deletion": "Confirm deletion",
+    "previous": "Previous",
+    "add": "Add",
+    "use": "Use",
+    "ignore": "Ignore",
+    "close": "Close",
+    "edit": "Edycja",
+    "cancel": "Cancel",
+    "back": "Back",
+    "load": "Load",
+    "ok": "Ok",
+    "next": "Next",
+    "export-csv": "Export as *.csv",
+    "export-excel": "Export to Excel",
+    "export-csv-file": "Export to CSV",
+    "export-excel-file": "Export to EXCEL",
+    "expand-all": "Expand all",
+    "collapse-all": "Collapse all",
+    "select-business": "Select the business",
+    "mass-editor": "Multiple change",
+    "no-icon": "no Icon"
+  },
+  "dashboard": {
+    "process": "process",
+    "processes": "processes",
+    "main": {
+      "welcome": {
+        "hello": "Hello",
+        "goodMorning": "Good morning,",
+        "goodEvening": "Good evening,",
+        "goodNight": "Good night,",
+        "subHeader": {
+          "fallback": "Good luck with your tasks today!",
+          "whatYouDidToday": "What you did today",
+          "whatTeamDidToday": "What your team did today"
+        },
+        "ofTeam": "of team",
+        "agent": "agent",
+        "agents": "agents"
+      },
+      "todos": "Zadania na dzisiaj",
+      "news": "News"
+    },
+    "report": {
+      "ahtOnSkill": {
+        "title": "Twój średni czas pracy według osiągnięć",
+        "today": "today",
+        "30days": "30 dni",
+        "min": "min",
+        "help": {
+          "header": "The color-presentation of tiles depends on your own AHT compared by the AHT of all others tracking time on the process.",
+          "header2": "% own AHT from team AHT"
+        }
+      },
+      "timetracking-last": {
+        "title": "Twój ostatni Time Tracking - {{hours}}h (1 dzień)",
+        "on-skill": "Twoje osiągnięcia",
+        "unproductive-skill": "osiągnięcia nieproduktywne",
+        "unproductive-global": "nieproduktywnie ogółem"
+      },
+      "timetracking-month": {
+        "title": "Twój Time Tracking z ostatnich 30 dni",
+        "day": "Dzień",
+        "hours": "Liczba godzin",
+        "process-count": "Liczba procesów",
+        "duration": "Czas trwania",
+        "processes": "Proces",
+        "date": "Data"
+      },
+      "no-user-report": {
+        "title": "Raport osobisty - brak danych"
+      }
+    },
+    "hrefNotAllowed": "Link wasn't found or you miss an access right."
+  },
+  "sample": {
+    "disputes": {
+      "title": "Dispute Management",
+      "business-selector-default": "Nothing selected",
+      "table": {
+        "case-value-instance-id": "Case-ID",
+        "case-value-internal-result": "Result external",
+        "case-value-internal-comment": "Comment external",
+        "case-value-internal-type": "Error external",
+        "case-value-internal-importance": "Impact external",
+        "case-value-internal-tester": "Tester external",
+        "case-value-external-result": "Result external",
+        "case-value-external-comment": "Comment external",
+        "case-value-external-type": "Error ext.",
+        "case-value-external-importance": "Impact external",
+        "case-value-external-tester": "Tester external"
+      },
+      "clearance-dialog": {
+        "title": "Clearance",
+        "internal-header": "Internal",
+        "external-header": "External",
+        "result": "Result",
+        "comment": "Comment",
+        "type": "Type",
+        "importance": "Impact",
+        "tester": "Tester",
+        "internal-correct": "internal correct",
+        "external-correct": "external correct",
+        "save-success": "Clearance saved"
+      }
+    },
+    "sample-processing": {
+      "title": "Sample processing",
+      "title2": "Processing",
+      "process-details": "Process details",
+      "checklist": "Checklist",
+      "additional-information": "Additional information",
+      "hint": "Supplementary notes from the worklist",
+      "inputs": {
+        "privacy": {
+          "title": "In-/External"
+        },
+        "processing-date": "Processing date",
+        "tested-user": "Tested user",
+        "reference-date": "Referencedate",
+        "error": "Error",
+        "error-type": "Error type",
+        "impact": "Impact",
+        "correction-necessary": "Correction necessary",
+        "correction-performed": {
+          "title": "Correction performed",
+          "options": {
+            "not-possible": "not possible"
+          }
+        },
+        "comment": "Comment",
+        "not-valued": "Not valued",
+        "radio-table-view": {
+          "not-relevant": " not rele. "
+        }
+      },
+      "processingType": {
+        "worklist": "Workload",
+        "new": "New",
+        "specific": "Specific"
+      },
+      "loading-behaviour": {
+        "randomly": "Load a random sample",
+        "by-due-date": "Load a sample ordered by due date",
+        "by-processing-date": "Load a sample ordered by processing date",
+        "by-agent": "Load a sample ordered by agent",
+        "by-transaction-id": "Load a sample ordered by transaction id"
+      },
+      "dialog": {
+        "discard-sample": {
+          "title": "Discard sample?",
+          "message": "Do you really wan't to discard loaded sample?"
+        }
+      }
+    },
+    "notifications": {
+      "no-samples": "no samples available, please adjust selection or upload a workload",
+      "all-samples": "Total",
+      "tested-samples": "Testet",
+      "open-samples": "Open",
+      "locked-samples": "Locked",
+      "to-be-tested-is-mandatory": "A tested user needs to be selected",
+      "process-id-is-mandatory": "A process id is needed"
+    },
+    "edit": "Edit",
+    "cancel": "Abbort",
+    "back": "Back"
+  },
+  "checklist-manager": {
+    "name": "Checklist Entry",
+    "title": "Checklist Manager",
+    "type": "Type",
+    "checklist-type":  "Checklist Type",
+    "categorie-group": "Category Group",
+    "switchEnable": "Optional",
+    "create-checklist": "Create Checklist",
+    "secure-question": "Do you really want to create a new checklist?",
+    "change-checklist-type": "Change Checklist type",
+    "add-new-process": "Add process",
+    "change-checklist-type-message":"A new type for the Checklist",
+    "editor": {
+      "new-checklist": "Create Checklist"
+    },
+    "label": {
+      "info": "Please fill all the fields before saving",
+      "cancelsave": "Duplicate: The category group must be unique for the type Title.",
+      "canceldelete": "It is not possible to empty a checklist completely. Please create a new checklist",
+      "normal": "Normal",
+      "Categorised" : "With title",
+      "Categorised-grouped": "Splited sample",
+      "selectprocess": "Please choose a process",
+      "title": "Title"
+    }
+  },
+  "toastrMessages": {
+    "load-error": "A error occured during loading the data.",
+    "saveSuccess": "successfully saved",
+    "updateRejected": "Abbort, because of an equal task. See id: ",
+    "saveDenied": "Abbort, because of an equal task. See id: ",
+    "saveErrorOccurred": "During saving process a error occured. Some data could be not save correctly.",
+    "newRejected": "inactive element would not be saved",
+    "notAllowed": "you are not allowed to access this Page",
+    "deniedConfluencePage": "The selected page is blocked.",
+    "downloadConfluencePageAttachments": "You can download the file under Data attachments",
+    "deleteSuccess": "delete success",
+    "deleteDenied": "an error has occured by delete the data",
+    "routingDenied": "The routing is denied.",
+    "multiselection-denied-deselect-value": "Deselecting the value is not allowed."
+  },
+  "file": {
+    "version-number": "Version number",
+    "add": "Add file",
+    "file-upload": "File-Upload",
+    "filename-to-server": "Filename to the server",
+    "uploaddate": "Local filename",
+    "file-upload-time": "Upload-Time",
+    "supported-format": "Supported format",
+    "title": "uploadmanager",
+    "title-editor": "File Upload Editor",
+    "name-of-file": "filename",
+    "mime-type": "File format",
+    "filesize": "Size of file",
+    "action": "action",
+    "uploadDate": "upload",
+    "fileModifikation": "modification",
+    "newData": "new Date",
+    "overwrite": "overwrite",
+    "importDate": "import",
+    "fileExits": "A file to the category and date exists. To overwrite the old file, please press the save-button.",
+    "fileExitsTitle": "found datafile",
+    "fileUploadLabel": "or select file for uploading",
+    "dropdownLabel": "drag and drop file here",
+    "hughFile": "file to large",
+    "wrongFiletyp": "Not accepted filetyp. Please just csv-files.",
+    "notCompleteInput": "Some inputfields are missing. Please complete the inputfields.",
+    "path": "path",
+    "format": "Format",
+    "overwrite-old-file": "Achtung, die bestehende Datei wird unwiderruflich überschrieben.",
+    "table-content": {
+      "overwriteOldfile": "Overwrite the file",
+      "newData": "Create new file"
+    }
+  },
+  "documentation": {
+    "release_version": "Release version",
+    "documentation": "Documentation",
+    "documentation-in-product": "Documentation in arvato-now",
+    "pinboard": "Pinboard",
+    "lastChange": "Last change",
+    "date": "Date of change",
+    "curr_version": "Current version",
+    "attachments": "Attachments",
+    "attachment": "Attachment",
+    "summary": "Table of content",
+    "viewGroup": "Viewgroups and users allowed to see this page",
+    "metaData": "Metadata",
+    "info": "About this document",
+    "area": "Confluence area",
+    "page": "Confluence page"
+  },
+  "label": {
+    "sort": "sort",
+    "applyFilter": "apply filter",
+    "contains": "contains",
+    "startswith": "starts with",
+    "set-value": "Set value"
+  },
+  "Mandantor1u1": {
+    "intraday": "Intraday",
+    "booking-date": "Bookingdate",
+    "booking-date-from": "Bookingdate from:",
+    "booking-date-until": "Bookingdate to:",
+    "manualData": "Manual capture evaluation",
+    "manualDataAdmission": "Manuel recording",
+    "sapUserCreate": "Create SAP users",
+    "sapUserCapture": "User capture",
+    "sapUserDetected": "User recorded",
+    "manualDetected": "Manuel recording",
+    "manualDataDetected": "Capture manual data",
+    "currentValueOfData": "Status of manual data",
+    "differentsOfData": "Deviations from notifications and bookings",
+    "user": "user",
+    "capacityOfCPD": "CPD volume",
+    "inventoryOfCPD": "CPD stock",
+    "date": "date",
+    "digiTV": "DigiTV",
+    "inputData": "input",
+    "clarification": "clarification case",
+    "complete": "complete",
+    "stack": "stack",
+    "category": "category",
+    "bookedOfRP": "RP booked",
+    "allStacks": "all stacks",
+    "fromStacks": "from stacks",
+    "toStacks": "to stack",
+    "editStack": "processed stack",
+    "worker": "user",
+    "sapUser": "SAP user",
+    "klaeruser": "clarification user",
+    "assignmentDate": "assignment date",
+    "deviation": "deviation",
+    "bk": "BK"
+  },
+  "vodafone": {
+    "manual-data-headline": "Manual Data Recording",
+    "date":"Date",
+    "category": "Category",
+    "incoming": "Incoming",
+    "outgoing": "Outgoing",
+    "stock": "Stock",
+    "volume": "Volume",
+    "current-user": "Current User",
+    "user-login-assignment": {
+      "headline": "Vodafone User-Login Assignment"
+    },
+    "manual-data-overview": {
+      "headline": "Vodafone Manual Records Overview"
+    }
+  },
+  "user-settings": {
+    "title": "Profile",
+    "menu": {
+      "orientation": "Menu orientation",
+      "sidebar": "Sidebar",
+      "topMenu": "Top menu"
+    },
+    "avatar": {
+      "title": "Change Avatar",
+      "confirm-delete": "Are you sure you wan't to delete the avatar?",
+      "category": {
+        "animals": "animals",
+        "female": "female",
+        "male": "male",
+        "flowers": "flowers",
+        "fantasy": "fantasy"
+      }
+    },
+    "landing-page": {
+      "title": "Landing page",
+      "dashboard": "Dashboard"
+    },
+    "language": {
+      "title": "Zmień język",
+      "label": "Język",
+      "languages": {
+        "en": "Angielski",
+        "de": "Niemiecki",
+        "pl": "Polski"
+      }
+    }
+  },
+  "password": {
+    "title": "Zmień hasło",
+    "form": {
+      "oldpassword": "Current password",
+      "oldpassword.placeholder": "Current password",
+      "newpassword": "Nowe hasło",
+      "newpassword.placeholder": "Nowe hasło",
+      "confirmpassword": "Potwierdź nowe hasło",
+      "confirmpassword.placeholder": "Potwierdź swoje nowe hasło",
+      "button": "Zmień hasło",
+      "remove": "Remove password"
+    },
+    "messages": {
+      "success": "Hasło zostało zmienione!",
+      "error": "Wystąpił błąd! Hasło nie mogło zostać zmienione.",
+      "invalidPassword": "PL Provided current password is invalid! The password could not be changed.",
+      "dontmatch": "Podane hasło nie jest równoznaczne z jego potwierdzeniem!",
+      "validate": {
+        "newpassword": {
+          "required": "Nowe hasło jest wymagane.",
+          "minlength": "Nowe hasło musi składać się z co najmniej 8 znaków.",
+          "maxlength": "Nowe hasło nie może być dłuższe niż 50 znaków."
+        },
+        "confirmpassword": {
+          "required": "Proszę potwierdzić hasło.",
+          "minlength": "Twoje potwierdzenie hasła musi składać się z co najmniej 8 znaków.",
+          "maxlength": "Twoje potwierdzenie hasła nie może być dłuższe niż 50 znaków."
+        },
+        "oldpassword": {
+          "required": "To Change, you need to enter your old Password"
+        }
+      }
+    }
+  },
+  "timetrack": {
+    "header": "TimeTracking dla",
+    "title": "Time Tracking",
+    "date": "{{date | date:'EEEE, MMM dd yyyy'}}",
+    "activity": "Proces",
+    "mandantor": "Mandantor",
+    "team": "Team",
+    "unproductive": "Nieproduktywny",
+    "process": "Proces",
+    "count": "Liczba",
+    "completed": "Ukonczone",
+    "resubmission": "Ponowne przedlozenie",
+    "resubmissionAt": "Ponowne przedlozenie do",
+    "datepicker": {
+      "current-text": "Dzisiaj",
+      "clear-text": "Wyczysc",
+      "close-text": "Gotowe"
+    },
+    "comment": "Komentarz",
+    "edit": "Edycja",
+    "button": {
+      "pause": "Wstrzymaj",
+      "resume": "Wznów",
+      "nextProcess": "Nastepny proces",
+      "lastProcess": "Ostatni proces"
+    },
+    "error": {
+      "process": "Prosze wybrac proces",
+      "team": "Prosze wybrac team",
+      "process1": "Dane w polu nie sa zgodne z wymaganiami ({{regexp}}) dla pierwszego ID procesu. Prosze sprawdzic wpisane dane.",
+      "process2": "Dane w polu nie sa zgodne z wymaganiami ({{regexp}}) dla drugiego ID procesu. Prosze sprawdzic wpisane dane.",
+      "processResult": "Prosze wybrac \u0022Ukonczony\u0022 albo \u0022Ponowne przedlozenie\u0022.",
+      "resubmission": "Data ponownego przedlozenia musi byc w przyszlosci.",
+      "counter": "Count is limited to max. 9999.",
+      "logic-violation": "A logical error occurred, this result is not saved to ensure data integrity. Please restart timetracking."
+    },
+    "server": {
+      "error": {
+        "title": "Blad",
+        "text": "Podczas próby zapisu wystapil blad. Dane zostaly zapisane lokalnie i zostana wyslane na serwer wraz kolejnym startem aplikacji."
+      }
+    },
+    "info": {
+      "paused": "Your Time Tracking is on pause right now. To continue press the Resume button.",
+      "unproductive": "You have Unproductive Time Tracking right now."
+    }
+  },
+  "production-plan": {
+    "day-to-filter": "Select day to filter",
+    "change-time-range": "Select day to change the time interval.",
+    "title": "Plan produkcji",
+    "navigate-to-production-plan-popover": "To production plan",
+    "navigate-to-production-plan-manager-popover": "To production planning manager",
+    "only-my-tasks": "Only my tasks",
+    "process": "Procesu",
+    "responsible": "Osoba odpowiedzialna",
+    "replacement": "Zastepca",
+    "replacement-one": "1. Replacement",
+    "replacement-two": "2. Replacement",
+    "move-time-frame": "Move time window weekly",
+    "work-instructions": "Instrukcje dotyczace pracy",
+    "with-documents": "z dokumentami",
+    "documents": {
+      "false": "Without documents",
+      "true": "With documents"
+    },
+    "status": {
+      "X": "CLOSED",
+      "-": "-",
+      "O": "OPEN",
+      "C": "Not necessary (closed)"
+    },
+    "with-mandatory-documents": "z dokumentami obowiazkowymi",
+    "hint-doc": "Hint doc",
+    "reminders": "Reminders",
+    "required-documents": "Required documents",
+    "history": "History",
+    "cip-category": "Timetracking",
+    "process-category": "Process category",
+    "no-workinstruction": "No workinstruction",
+    "no-documents": "No document hints",
+    "ics": {
+      "label": "W ICS",
+      "ics": "ICS",
+      "ics-name": "Name in the internal control system"
+    },
+    "task-state": {
+      "label": "Status zadania",
+      "all": "Wszystkie",
+      "open": "Otwarte",
+      "open-review": "Open / Review",
+      "review-open": "Review / Open",
+      "completed": "Ukonczone",
+      "review": "Przeglad",
+      "none": "Brak",
+      "closed": "Not necessary / possible (closed)"
+    },
+    "edit-task": {
+      "title": "Edit task",
+      "tech-param": "Technical parameters",
+      "have-to-select-responsible": "The responsible user is missing.",
+      "generate-turnus": "next",
+      "by": "by",
+      "status": "Status",
+      "comment": "Comment",
+      "add-file": "Dodaj plik",
+      "document-type": "Typ",
+      "document-title": "Nazwa",
+      "document-file-name": "File name",
+      "document-date": "Data",
+      "changed-date": "Changed on",
+      "review-date": "Completed and Reviewed on",
+      "completed-date": "Ukonczono dnia",
+      "documents": "Documents",
+      "add-document": "Add document",
+      "messages": {
+        "processing-time-exceeded-for-user": "Czas pracy nad tym zadaniem zostal przekroczony. Wciaz mozna dodawac komentarze i dokumenty. If necessary, contact a superior.",
+        "processing-time-exceeded-for-manager": "Standardowy czas pracy zostal przekroczony. Jako manager mozesz dokonywac przegladu w przeciagu trzech dni. If necessary, contact a compliance officer. ",
+        "incomplete-information": "To upload a document the type is mandatory",
+        "file-too-large": "Rozmiar dokumentu nie moze przekraczac 100 MB",
+        "max-file-count-reached": "Dopuszczalny limit zalaczonych dokumentów zostal osiagniety.",
+        "min-documents-error": "more document(s) are mandatory",
+        "processing-time-not-reached": "The processing time has not yet been reached. Please try again later.",
+        "have-to-comment": "Add a comment to close the task."
+      },
+      "toastr-messages": {
+        "comment-required-error": {
+          "title": "Comment required",
+          "message": "A comment is required when task is processed over time."
+        }
+      }
+    },
+    "edit": {
+      "takeOldDate": "Keep former dates",
+      "takeNewDate": "Add new dates"
+    },
+    "admin": {
+      "title": "Edytuj plan produkcji",
+      "create-task": "Create process",
+      "create-task-popover": "create a new process",
+      "mass-editor-popover": "To edit multiple processes you need to select multiple Items inside the process grid.",
+      "reminder-one": "Przypomnienie 1",
+      "reminder-two": "Przypomnienie 2",
+      "reminder-three": "Przypomnienie 3",
+      "monday": "W poniedzialki",
+      "tuesday": "We wtorki",
+      "wednesday": "W srody",
+      "thursday": "W czwartki",
+      "friday": "W piatki",
+      "saturday": "Saturdays",
+      "sunday": "Sundays",
+      "automaticallyDue": "Automatyczna data ukonczenia",
+      "minDocuments": "Duty documents",
+      "hintDoc": "Hint (documents)",
+      "ics-controls": "Control in ICS",
+      "tasksEdit": "Edit tasks",
+      "taskDate": "Task date",
+      "addNewTask": "Add",
+      "invalidDateError": "Invalid task date. Tasks can only be added to future",
+      "taskAlreadyExists": "On selected date task is already defined",
+      "confirmRemovingTask": "Please confirm task removal",
+      "statusNotSelected": "Task status not selected",
+      "taskStatus": "Status",
+      "edit": "Edycja",
+      "editDates": "Edit Dates",
+      "edit-single-dates": "Add dates",
+      "editTask": "Edit Task",
+      "type": "Type",
+      "role": "new rule",
+      "saveTasks": "save the dates",
+      "taskdayName": "dayname",
+      "holiday": "holiday",
+      "postponedOfHoliday": "postponed holiday ",
+      "source": "source",
+      "sourceOld": "old date",
+      "sourceNew": "new date",
+      "sourceMix": "new / old dates",
+      "sourceManuel": "manuel ",
+      "sourcedefault": "multiple sources",
+      "mass-editor-dialog": {
+        "title": "Edit multiple tasks",
+        "confirm-title": "You are about to change following tasks",
+        "confirm-more": "...and {{count}} more"
+      }
+    }
+  },
+  "menu-editor": {
+    "item-name": "Default title",
+    "item-path": "Path",
+    "item-endpoint": "Endpoint",
+    "item-body": "REST call body",
+    "item-frame": "Display in new frame",
+    "item-show": "Display",
+    "translation-key": "Translation key",
+    "item-type": {
+      "APPLICATION_MENU": "Application",
+      "HREF": "URL",
+      "REST": "REST",
+      "REPORT": "Page",
+      "DASHBOARD": "Dashboard",
+      "NODE": "Menu group",
+      "CONFLUENCE": "Confluence",
+      "title": "Type"
+    },
+    "queryName": "Query",
+    "resourceName": "Resource",
+    "title": "Menu editor",
+    "save": "Zapisz",
+    "dashboard": "Dashboard",
+    "is-top-level": "Show on Top Level",
+    "icon": "Icon"
+  },
+  "news-editor": {
+    "title": "News",
+    "news-date": "Publishing date",
+    "published": "Published",
+    "news-title": "Tytuł",
+    "high-priority": "Wysoki priorytet",
+    "type": "Type",
+    "global": "Globalny",
+    "external": "Zewnętrzny",
+    "date-to": "Ważny do",
+    "owner": "Kreator",
+    "last-changed": "Ostatnia zmiana",
+    "last-changed-from": "from",
+    "news-language": "Język",
+    "news-content": "Zawartość",
+    "edit-news": "Edytój wiadomosci",
+    "create-news": "Utwórz wiadomość",
+    "navigate-to-news-manager-popover": "To news manager",
+    "languages": {
+      "german": "german",
+      "english": "english",
+      "polish": "polish"
+    },
+    "wizard": {
+      "title": "News Editor",
+      "legend1": "Content",
+      "legend2": "General"
+    },
+    "types": {
+      "information": "Informacja",
+      "appointment": "Termin",
+      "team": "Zespół",
+      "maintenance": "Konserwacja",
+      "disorder": "Usterka"
+    },
+    "notifications": {
+      "inactive": "Ta wiadomość nie będzie widoczna dla nikogo, jest nie aktywna",
+      "visible": "Ta wiadomość będzie widoczna dla odpowiednich osób",
+      "mandantor-site-missmatch": "Ta wiadomość nie będzie widoczna dla nikogo, należy wybrać lokalizację w połączeniu z klientem lub 'globalny'. If the news should be visible for externals only, at least one mandantor needs to be selected.",
+      "date-missmatch": "Ta wiadomość nie będzie (na razie) widoczna dla nikogo, okres ważności wyklucza bieżący dzień",
+      "content-missing": "Ta wiadomość nie będzie widoczna dla nikogo, zawartość jest pusta",
+      "page-one-visible-for": "This News is visible in filled up languages",
+      "page-two-visible": "The News is only visible if the content is filled up correctly",
+      "externals-only": "This news is only visible for externals",
+      "page-one-hint": "you need to fill up every language, news isn't visible for any empty language",
+      "error": {
+        "invalidDate": "Newsdate is mandatory",
+        "invalidDateTo": "'valid to' is mandatory",
+        "invalidDateToBefore": "Date 'valid to' needs to be after Newsdate"
+      }
+    }
+  },
+  "dashboard-editor": {
+    "error-dialog": {
+      "title": "Server Error",
+      "text": "An error occurred when loading the dashboards. You will be redirected to the last visited page."
+    },
+    "query-dialog": {
+      "title": "Select query"
+    },
+    "html-editor-dialog": {
+      "title": "HTML editor"
+    },
+    "filters-selector-dialog": {
+      "title": "Select filter"
+    },
+    "widget-selector-dialog": {
+      "title": "Select widget"
+    },
+    "filters": "Filter",
+    "code-editor-dialog": {
+      "title": "Code editor"
+    },
+    "dashboard": "Dashboard",
+    "table-cell-callback": "Table cell callback"
+  },
+  "taskCycle": {
+    "task-summary": "Date overview",
+    "turnus-wizard": "Cycle",
+    "pointOfView": "Point of view",
+    "selectWorkingday": "workingday",
+    "workdayOrWeekday": "Workdays / Weekdays",
+    "workingdaysPerWeek": "Workdays per week",
+    "turnusSelection": "Turnusselection",
+    "turnusComment": "Turnus (free text)",
+    "preview": "preview",
+    "bookmark": "bookmark",
+    "bootmarktitle": "date transmit to the list",
+    "turnus": {
+      "saveSuccessDatesOfTask": "successful save of the dates",
+      "saveErrorByDatesOfTask": "error occurred while saving the dates",
+      "saveSuccessTaskType": "successful save of the tasksettings",
+      "noDatesOfTask": "non new dates",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "yearly": "Yearly",
+      "considerWeek": "weekly",
+      "considerMonth": "monthly",
+      "considerWorkdays": "workday",
+      "every": "Every",
+      "all": "Every",
+      "workday": "Workday",
+      "weekday": "Weekday",
+      "startMonth": "After begin of month",
+      "endMonth": "Before end of month",
+      "removeOldDate": "remove old dates",
+      "takeOldDate": "Keep former dates",
+      "takeNewDate": "Add new dates"
+    },
+    "kindOfDay": {
+      "AT": "working day",
+      "PayDay": "PayDay",
+      "weekday": "weekday"
+    },
+    "dayname-narrow" :{
+      "0": "Sun",
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat",
+      "7": "Sun"
+    },
+    "dayname": {
+      "": "",
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday",
+      "7": "Sunday",
+      "8": "",
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "Sunday": "Sunday",
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Wednesday": "Wednesday",
+      "Thursday": "Thursday",
+      "Friday": "Friday",
+      "Saturday": "Saturday",
+      "selectDayname": "Day"
+    },
+    "counter": {
+      "first": "First",
+      "second": "Second",
+      "third": "Third",
+      "fourth": "Fourth",
+      "fifth": "Fifth",
+      "last": "Last",
+      "penultimate": "Penultimate",
+      "select-number": "Number in month",
+      "select-at": "Workday in month"
+    },
+    "relation": {
+      "before": "Prepone task to previous workday",
+      "exactly": "Retain task on holiday",
+      "ignore": "Delete task",
+      "after": "Postpone task to next workday"
+    },
+    "repeat": {
+      "every": "every",
+      "all": "wszystko",
+      "anything": "every"
+    },
+    "interval": {
+      "week": "week",
+      "month": "month",
+      "quarterly": "quartal",
+      "year": "year",
+      "weekdayIn": "weekdays in",
+      "weekday": "weekdays",
+      "paydayIn": "paydays in",
+      "payday": "paydays",
+      "workday": "workday",
+      "atIn": "workingdays (AT) in",
+      "at": "workingdays (AT) Mon-Fri",
+      "at6": "workingdays (AT) Mon-Sat",
+      "at7": "workingdays (AT) Mon-Sun"
+    },
+    "handlingInformation": {
+      "repeatXtimes": "choice of recurrence ( all x-times) ",
+      "choiceOfTheDates": "choice of some dates",
+      "interval": "period",
+      "startDate": "Begin of period",
+      "endDate": "End of period",
+      "endless": "endless",
+      "turnusCycle": "turnus/cycle",
+      "turnus": "turnus",
+      "use-turnus": "Use cycle",
+      "daysInTurnus": "consider kind of days",
+      "weekdaysInTurnus": "some days in the turnus",
+      "weekdays": "weekdays",
+      "recurrence": "property of the turnus in the period",
+      "choiceSeveralDate": "recurring period",
+      "choiceRecurrence": "regular repetitive rhythms",
+      "handlingVacation": "Rules for handling holidays",
+      "handlingVacationText": "At this point exists the option to handle with dates lying on holidays.",
+      "choiceATs": "workingdays in period",
+      "choiceATLabel": "choice ATs",
+      "dayInfo": "Information to the selected termin",
+      "specialDayNameInTurnus": "selection of one weekday in the turnus"
+    }
+  },
+  "navigation-dashboard": {
+    "title": "Reporting dashboards",
+    "no-dashboards": "No dashboards found",
+    "only-favorites": "Only favorites"
+  },
+  "navigation": {
+    "title": "Navigation",
+    "topics": "Topics",
+    "topic": "Topic",
+    "resources": "Resources",
+    "resource": "Resource"
+  },
+  "navigation-manager": {
+    "title": "Navigation manager",
+    "columns": {
+      "title": "Topic title"
+    }
+  },
+  "navigation-editor": {
+    "title": "Navigation editor"
+  },
+  "filter-manager": {
+    "filter-static": "Static-Filter",
+    "filter-text": "Text-Filter",
+    "filter-date": "Date-Filter",
+    "filter-options": "Options-Filter",
+    "filter-manager": "Filter Manager",
+    "create-filter": "Create filter",
+    "edit-filter": "Edit filter",
+    "new-filter": "New filter",
+    "col-description": "DESCRIPTION",
+    "col-variable-name": "VARIABLENAME",
+    "col-label": "LABEL",
+    "col-comment": "DESCRIPTION",
+    "col-type": "TYPE",
+    "col-modified": "MODIFIED",
+    "col-modified-by": "MODIFIED BY",
+    "editor": {
+      "description": "Description",
+      "variable-name": "Variable name",
+      "label": "Label",
+      "combobox": "As dropdown menu",
+      "comment": "Description",
+      "options-provider": "Filter options provider",
+      "option-name": "Name",
+      "option-type": "Type",
+      "option-value": "Value",
+      "option-default": {
+        "check": "Mark as default",
+        "uncheck": "Remove default mark"
+      },
+      "selection": "Select...",
+      "static-filter": "Static Filter",
+      "hint": "Hint",
+      "mandatory": "Mandatory"
+    },
+    "errors": {
+      "exists": "Filter already exists",
+      "invalid-field": "Invalid value for field '{{field}}'! Message: {{message}}",
+      "unknown-error": "Error - unable to save filter"
+    }
+  },
+  "query-manager": {
+    "query-manager": "Query Manager",
+    "create-query": "Query anlegen",
+    "editor": {
+      "edit-query": "Edit query",
+      "new-query": "New query",
+      "label-name": "Name",
+      "label-comment": "Comment",
+      "label-query": "Query",
+      "validate": "validate",
+      "operation": {
+        "label": "Query Category",
+        "label-type": "Query Type",
+        "avoid-select-execute-error": "Cannot return query stats for a select query",
+        "select": "Select",
+        "execute": "Execute",
+        "all": "All Queries",
+        "filter": "Filters",
+        "common": "Common",
+        "case-handling": "Case-Handling"
+      },
+      "skip-validation": "skip validation",
+      "validate-success": "Query is valid",
+      "validate-error": "Query is invalid",
+      "validate-error-executable": "Query could not be validated - erroneous or not EXPLAINable",
+      "validate-is-executable": "Query is executable and may affect system stability",
+      "really-skip-validation": "Really skip validation of an \"Executable Generic Query\"?",
+      "preview": "preview",
+      "error": {
+        "name-exists": "Query with this name already exists"
+      }
+    }
+  },
+  "dashboard-manager": {
+    "show-dashboard": "Show dashboard",
+    "edit-dashboard": "Edit bearbeiten",
+    "show-as-tiles": "Show as tiles",
+    "show-as-list": "Show as list",
+    "add-resource": "New entry",
+    "dashboard-manager": "Dashboard manager",
+    "create-new": "Create new",
+    "delete-message": "Delete dashboard {{title}}?",
+    "col-title": "Title",
+    "col-modified": "Modified",
+    "col-modified-by": "Modified by",
+    "show-on-overview": "Show on 'DASHBOARDS'",
+    "auto-refresh": "Auto refresh",
+    "auto-refresh-interval": "Auto refresh interval",
+    "properties": "Properties",
+    "widget-type": "Widget type",
+    "widget-title": "Widget title",
+    "widget-resources": "Topic resources",
+    "chart-title": "Chart title",
+    "chart-type": "Chart type",
+    "query": "Query",
+    "column-by-column": "Column by column",
+    "page-size": "Page size",
+    "excel-export": "Excel export",
+    "show-selection": "Show selection",
+    "html-content": "HTML content",
+    "filters": "Filter",
+    "manage": "Manage",
+    "manage-columns": "Manage columns",
+    "navigation-columns": "Navigation columns ",
+    "show-trend-line": "Show trend line scale",
+    "show-grid-lines": "Show grid lines",
+    "chart-category-label": "Category label",
+    "chart-values-label": "Values label",
+    "chart-trendline-label": "Trend line values label",
+    "toast-error-title": "Error loading dashboard",
+    "add-widget": "Add widget",
+    "dashboard-properties": "Dashboard properties",
+    "widget-properties": "Widget properties",
+    "add-widget-type": {
+      "chart": "Chart",
+      "table": "Table",
+      "text": "Text",
+      "existing": "Existing",
+      "topic": "Topic"
+    },
+    "error-dialog": {
+      "title": "Server error",
+      "text": "The dashboard could not be loaded. You will be redirected to the previous page."
+    },
+    "query-dialog": {
+      "title": "Select query",
+      "select-query-name": "Query name",
+      "table": {
+        "name": "Name"
+      }
+    },
+    "html-editor-dialog": {
+      "title": "Html editor"
+    },
+    "filters-selector-dialog": {
+      "title": "Filters selector"
+    },
+    "column-manager-dialog": {
+      "title": "Manage columns",
+      "BUTTON_LINK": "Button + link",
+      "EMAIL_LINK": "Email + link",
+      "ICON_LINK": "Icon + link",
+      "TEXT_LINK": "Text + link"
+    },
+    "widget-selector-dialog": {
+      "title": "Widget selector",
+      "table": {
+        "title": "Title",
+        "type": "Type"
+      }
+    },
+    "topic-create-dialog": {
+      "title": "New entry"
+    },
+    "topic-update-dialog": {
+      "title": "Edit entry"
+    },
+    "view-style": "View style",
+    "gauge": {
+      "base-value": "Base value",
+      "color-steps": "Color steps",
+      "show-scale": "Show scale",
+      "show-value": "Show value"
+    }
+  },
+  "timetracking-manager": {
+    "page-title": "Timetracking Manager",
+    "create-entry-label": "New entry",
+    "date-label": "Date",
+    "start-label": "From",
+    "end-label": "To",
+    "dialog-title": "Edit timetracking entry",
+    "successes": {
+      "create": "Created entry",
+      "update": "Updated entry",
+      "delete": "Deleted Entry"
+    },
+    "errors": {
+      "time-frame": "Please check timeframe"
+    }
+  },
+  "imprint": {
+    "header": "O stronie",
+    "title": "Zawarte tu informacje są zgodne z §5 TMG"
+  },
+  "shift-planning": {
+    "title": "Shift planning",
+    "nav-shiftplan-manager": "Shiftplan Manager",
+    "nav-shift-model-manager": "Shiftmodel Manager",
+    "nav-shift-manager": "Shift Manager",
+    "nav-planning-unit-manager": "Planning Unit Manager",
+    "nav-planning-unit-employee-manager": "Planning Unit Employee Manager",
+    "nav-my-shifts": "My shifts",
+    "my-shifts": {
+      "title": "My shifts"
+    },
+    "planning-unit-manager": {
+      "title": "Planning Unit Manager",
+      "create": "New Planning Unit",
+      "visibility-invisible": "Invisible",
+      "visibility-visible": "Visible",
+      "visibility-visible-comment": "Visible + Comments",
+      "visibility-detail": "Detailed",
+      "visibility-detail-comment": "Detailed + Comments",
+      "table": {
+        "name": "Name",
+        "business": "Business",
+        "global": "Global",
+        "active": "Active",
+        "team": "Team",
+        "modified": "Modified",
+        "modified_by": "Modified by"
+      },
+      "editor": {
+        "new": "New Planning Unit",
+        "edit": "Edit Planning Unit",
+        "name": "Name",
+        "business": "Business",
+        "label-working-days": "Working days",
+        "visibility-team": "Team visibility",
+        "show-comment": "Show comments",
+        "active": "Active",
+        "global": "Global",
+        "auto-publish": "Auto publish",
+        "admin-resource": "Admin resource",
+        "planner-resource": "Planner resource",
+        "hoo-resource": "HoO resource",
+        "workercouncil-resource": "Workercouncil resource",
+        "publisher-resource": "Publisher resource",
+        "delete-question": "do you really want to delete {{name}}?",
+        "assign-employees": {
+          "title": "Assign employees",
+          "loading": "Loading data..."
+        },
+        "flag-active": "Active",
+        "flag-show-employee": "Show to employees",
+        "flag-show-team": "Show to team"
+      }
+    },
+    "planning-unit-employee-manager": {
+      "title": "Assignments",
+      "selector-reference-date": "Reference date",
+      "col-name": "Name",
+      "col-assignments": "Assignments",
+      "col-assignment-current": "Current assignment",
+      "col-category": "Category",
+      "col-start": "Start",
+      "col-end": "End",
+      "no-delete": "Can only be changed in length",
+      "editor": {
+        "title-new": "New Assignment",
+        "title-edit": "Edit Assignment",
+        "label-employee": "Employee",
+        "label-category": "Category",
+        "label-from": "From",
+        "label-to": "To",
+        "change-title": "Attention",
+        "change-msg": "Because of changes in the duration, it may be that some shiftplan entries will be deleted",
+        "delete-question": "Do you really want to delete the assignment?"
+      }
+    },
+    "planning-unit-flag-manager": {
+      "editor": {
+        "title": "Edit flag"
+      }
+    },
+    "shift-plan-manager": {
+      "title": "Shiftplan manager",
+      "delete-question": "Are you sure to delete \"{{versionName}}\" ?"
+    },
+    "shift-model-manager": {
+      "title": "Schichtmodel manager",
+      "name": "Name",
+      "description":"Description",
+      "active": "Active",
+      "duration": "Duration",
+      "dateFrom": "From",
+      "editor": {
+        "title": "Shiftmodel editor",
+        "delete-title": "Delete shiftmodel",
+        "label-name": "Name",
+        "label-description": "Description",
+        "label-active": "Active",
+        "delete-question": "Are you sure to delete \"{{name}}\" ?"
+      }
+    },
+    "employee-assign-shiftmodels": {
+      "title": "Assign shiftmodels",
+      "employees": "Employees"
+    },
+    "shiftmodel-assign-employees": {
+      "title": "Assign employees"
+    },
+    "shift-manager": {
+      "title": "Shift manager",
+      "tab-shifts": "Shifts",
+      "tab-categories": "Categories",
+      "editor": {
+        "title": "Shift editor",
+        "delete-title": "Delete shift",
+        "delete-question": "Are you sure to delete \"{{name}}\" ?",
+        "label-name": "Name",
+        "label-name-en": "Name EN",
+        "label-name-short": "Short",
+        "label-name-short-en": "Short EN",
+        "label-start": "Start",
+        "label-end": "End",
+        "label-break": "Break (Minutes)",
+        "label-duration": "Duration",
+        "label-color": "Color",
+        "label-active": "Active",
+        "label-present": "Present",
+        "label-plannable": "Plannable",
+        "label-global": "Global",
+        "label-productive": "Productive",
+        "label-category": "Category",
+        "error-long-shift": "Shifts have to be 10 hours or less.",
+        "error-long-break": "The break must be less than shift duration.",
+        "error-shift-name": "Shift-name already exists",
+        "error-shift-short-name": "Shift-short-name already exists"
+      },
+      "shift-category-manager": {
+        "editor": {
+          "title": "Category Editor",
+          "label-order": "Sequence"
+        }
+      }
+    },
+    "shift-planner": {
+      "title": "Shift planner",
+      "calendar-title": "Employee",
+      "filter-category": "Category",
+      "shift-overview": "Shift overview",
+      "planned": "Planned",
+      "working-day": "Working day",
+      "label-legend": "Legend",
+      "publish": "Published",
+      "changes-title": "Attention",
+      "changes-message": "There are unsaved changes. Continue?",
+      "change-published-plan-warning": "Attention! You try to edit an already published shift plan.",
+      "unplanned-shifts-warning": "Attention, there are no presence- or absence-shifts for one or more employees. Please add shifts for all employees.",
+      "context-copy": "Copy",
+      "context-paste": "Paste",
+      "context-delete": "Delete",
+      "context-details": "Details",
+      "editor": {
+        "edit-title": "Shiftplan",
+        "delete-title": "Delete shiftplan",
+        "label-version-name": "Version name",
+        "label-start": "Begin",
+        "label-end": "End",
+        "choice": "Choice",
+        "autofill": "autofill"
+      },
+      "entry-details-editor": {
+        "title": "Details",
+        "apply": "Apply",
+        "comment": "Comment"
+      }
+    },
+    "shift-plan-switch": {
+      "prev-shiftplan": "Previous shift schedule",
+      "next-shiftplan": "Next shift schedule"
+    }
+  },
+  "case-handling": {
+    "title": "Case handling",
+    "cases": "Cases",
+    "closed-cases": "Closed cases",
+    "case-locked-title": "Case locked",
+    "case-locked": "This case is in progress. Reviser:",
+    "no-new-case-title": "No new Case",
+    "no-new-case-message": "Unfortunately no new case exists.",
+    "due-date": "Duedate",
+    "resubmission-date": "Followup date",
+    "resubmission-time": "Followup time",
+    "editing": "Editing",
+    "history": "History",
+    "result": "Result",
+    "no-detail-information": "no details available",
+    "url": "URL",
+    "toastr": {
+      "timetracking-success": "Timetracking saved",
+      "timetracking-error": "Timetracking can't be saved",
+      "case-success": "Case saved",
+      "case-error": "Case can't be saved",
+      "query-missing" : "Configuration problem: missing query",
+      "update-query-missing": "Configuration problem: missing update query, nothing saved.",
+      "improper-status-handling" : "Configuration problem: improper handling/dialog"
+    },
+    "button": {
+      "refresh": "Refresh cases"
+    }
+  },
+  "business-administration": {
+    "sales-order": "Project number",
+    "title": "Business Administration",
+    "common": "Common",
+    "contracts": "Contracts",
+    "contract": "Contract",
+    "contract_gerund": "Contract",
+    "site-contracts":"Applicable contracts",
+    "applicable-contracts": "Applicable contracts",
+    "nascent": "Nascent",
+    "requirements": "Requirements",
+    "requirement": "Requirement",
+    "files": "Files",
+    "history": "History",
+    "add-business": "Add business",
+    "add-contract": "Add contract",
+    "contract-type": "Contract type",
+    "conformance-testing" : "Conformance testing"
+  },
+  "service-administration": {
+    "title": "Service administration",
+    "add-service": "Add service",
+    "service-contract": "Service contract"
+  },
+  "process-administration": {
+    "title": "Process administration",
+    "datatype": "Datatype",
+    "add-kpi": "Add category",
+    "category-name-de": "Categoryname DE",
+    "category-name-en": "Categoryname EN",
+    "upper-limit": "Upper limit",
+    "lower-limit": "Lower limit",
+    "avg-value": "avg value",
+    "sum-value": "Total value",
+    "read-only": "read only",
+    "add-process": "Add process",
+    "select-user-skills": "Selectedable User",
+    "available-user-skills": "Available User"
+  },
+  "kpi-administration": {
+    "add-kpi": "Add category"
+  },
+  "change": {
+    "kind": "Kind of Change",
+    "add-file": "Add file",
+    "add-requirement": "Add new requirement",
+    "add-master-requirement": "Add Master Requirement",
+    "save-business-contract": "Change contract value",
+    "link-contract": "Link contract",
+    "linked-contract": "Linked contract",
+    "link-master-requirement": "Link Master Requirement",
+    "link-requirement": "Link Requirement"
+  },
+  "master-requirement": {
+    "add-requirement": "Add requirement",
+    "title": "Master Requirement",
+    "manage": "Edit Master Requirement",
+    "add": "Add Master Requirement",
+    "norm": "Norm",
+    "norms": "Norms",
+    "area": "Area",
+    "areas": "Areas",
+    "norm-requirement": "Norm requirement",
+    "reference": "Reference",
+    "description-de": "Description",
+    "description-en": "Description EN",
+    "passage": "Passage",
+    "text-content": "Text content",
+    "requirement-have-to-save-first": "Adding Master Requirements, you must save this requirement first.",
+    "requirement-base-data": "Requirement base data",
+    "edit-requirement-base-data": "Edit requirement base data",
+    "adequate-fuse-coverage": "Adequate fuse coverage"
+  },
+  "routing": {
+    "confirm-dialog": {
+      "edit-not-finish-title": "Changes not saved",
+      "edit-not-finish": "By leaving this page all changes are lost. Do you want to proceed?"
+    },
+    "read-only": "Read only"
+  },
+  "queue-administration": {
+    "title": "Queue Administration",
+    "name": "Name",
+    "process": "Process",
+    "countNew": "New",
+    "new-queue": "New Queue",
+    "save-order": "Save Order",
+    "description": "Description",
+    "priority": "Priority",
+    "warning-message": "Please note that by deactivating this queue, agents won't be able to process the cases any further. Cases within the queue are not deleted and can be processed once the queue is activated again.",
+    "delete-message-has-cases": "Are you Sure? There are currently {{caseCount}} cases assigned.",
+    "delete-message-no-cases": "Are you Sure? The queue can be safely deleted, there are no cases assigned.",
+    "delete-queue-title": "Delete Queue"
+  },
+  "cdc": {
+    "title": "Case Distribution Cockpit",
+    "unassigned": "unassigned",
+    "states": {
+      "all": "all",
+      "new": "new",
+      "in-progress": "in progress",
+      "done": "done"
+    },
+    "queue-properties": {
+      "name": "name",
+      "countNew": "new",
+      "countInProgress": "in progress",
+      "countDone": "done",
+      "description": "description",
+      "priority": "priority",
+      "resource": "resource",
+      "limitResource": "resource",
+      "limitResourceName": "resource",
+      "businessName": "business",
+      "serviceName": "service",
+      "processName": "process",
+      "all": "all",
+      "new": "new",
+      "in-progress": "in progress",
+      "done": "done"
+    }
+  }
+}
